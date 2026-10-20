@@ -1,0 +1,81 @@
+{
+  "home": {
+    "meta_title": "Bath and Kitchen Remodeling, Belzoni MS | AKM Construction",
+    "meta_description": "AKM Construction remodels bathrooms and kitchens in Belzoni, Mississippi. Jay Singh has more than 10 years in construction. Call or text 614-390-2931.",
+    "hero_eyebrow": "Belzoni, Mississippi",
+    "hero_headline": "Bathroom and kitchen remodeling in Belzoni",
+    "hero_headline_emphasis": "in Belzoni",
+    "hero_sub": "AKM Construction is run by Jay Singh, who has worked in construction for more than 10 years. Most of his jobs are bathroom remodels, and he's doing more kitchens now.",
+    "cta_label": "Call or text Jay",
+    "cta_secondary": "Ask for a price",
+    "services_heading": "What we remodel",
+    "services_teaser": [
+      { "name": "Bathrooms", "line": "Bathrooms are most of our work. Tell Jay what you want changed and he'll come look at it." },
+      { "name": "Kitchens", "line": "We've been taking on more kitchen jobs lately. Jay looks at the room and gives you a price, same as a bathroom." }
+    ],
+    "about_heading": "About Jay",
+    "about": "Jay Singh has worked in construction for more than 10 years. He's careful with the finish work, and he treats the people he works for well.",
+    "authority_stat": "10+",
+    "authority_stat_label": "years in construction",
+    "plan_heading": "How it works",
+    "plan_steps": [
+      "Call or text Jay at 614-390-2931.",
+      "Jay comes to your house, looks at the room, and gives you a price.",
+      "If you say yes, we set a start date and do the work."
+    ],
+    "work_heading": "Recent work",
+    "work_link": "See more photos",
+    "quote_heading": "Ask for a price",
+    "quote_sub": "Fill this in and your phone will open a text to Jay with your details already typed in.",
+    "closing_cta": "Call or text Jay at 614-390-2931."
+  },
+
+  "services": {
+    "meta_title": "Bathroom and Kitchen Remodeling in Belzoni, MS | AKM",
+    "meta_description": "Bathroom remodels and kitchen remodels in Belzoni, Mississippi from AKM Construction. Call or text Jay Singh at 614-390-2931 for a price.",
+    "intro_heading": "Bathroom and kitchen remodeling",
+    "intro": "AKM Construction remodels bathrooms and kitchens in and around Belzoni.",
+    "blocks": [
+      {
+        "name": "Bathroom remodels",
+        "what_it_fixes": "Bathrooms are most of what we do. Call or text Jay, tell him what you want changed, and he'll come take a look.",
+        "whats_included": [],
+        "cta": "Text Jay about your bathroom"
+      },
+      {
+        "name": "Kitchen remodels",
+        "what_it_fixes": "We've been taking on more kitchen jobs lately. It works the same way as a bathroom: Jay comes out, looks at the room, and gives you a price.",
+        "whats_included": [],
+        "cta": "Text Jay about your kitchen"
+      }
+    ]
+  },
+
+  "work": {
+    "meta_title": "Remodel Photos, Belzoni MS | AKM Construction",
+    "meta_description": "Finished bathroom and kitchen remodels by AKM Construction in Belzoni, Mississippi. Call or text 614-390-2931.",
+    "intro_heading": "Recent work",
+    "intro": "Photos of finished bathrooms and kitchens from AKM jobs.",
+    "captions": []
+  },
+
+  "about": {
+    "meta_title": "About Jay Singh | AKM Construction, Belzoni MS",
+    "meta_description": "AKM Construction is Jay Singh's remodeling company in Belzoni, Mississippi. More than 10 years in construction. Call or text 614-390-2931.",
+    "heading": "About Jay Singh",
+    "body": [
+      "AKM Construction is Jay Singh's remodeling company in Belzoni, Mississippi.",
+      "Jay has worked in construction for more than 10 years. Most of his work now is bathroom remodels, and he's doing more kitchens.",
+      "He's careful with the finish work, and he treats the people he works for well."
+    ]
+  },
+
+  "contact": {
+    "meta_title": "Contact AKM Construction | Belzoni, MS Remodeling",
+    "meta_description": "Call or text Jay Singh at 614-390-2931 about a bathroom or kitchen remodel in Belzoni, Mississippi.",
+    "heading": "Call or text Jay",
+    "intro": "Tell Jay which room you want redone. He'll set up a time to come look at it.",
+    "phone_label": "Call or text",
+    "service_area": "Belzoni, Mississippi and nearby"
+  }
+}

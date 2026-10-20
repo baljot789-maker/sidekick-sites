@@ -1,0 +1,132 @@
+{
+  "slug": "akm-construction",
+  "niche": "residential-construction",
+  "mode": "preview",
+  "kit": "none yet: built from Joe's direction ('Old Southern charm meets modern design') plus kits/residential-construction/research.md and patterns.md. Fonts: Libre Caslon Display, Libre Caslon Text, Libre Franklin (Google Fonts, SIL OFL).",
+  "business": {
+    "name": "AKM Construction",
+    "owner_name": "Jay Singh",
+    "phone": "614-390-2931",
+    "texts_ok": true,
+    "email": null,
+    "address": null,
+    "show_address": false,
+    "hours": null,
+    "license": null,
+    "insured": null,
+    "years_in_business": null,
+    "owner_years_in_construction": "more than 10"
+  },
+  "services": [
+    {
+      "name": "Bathroom remodels",
+      "facts": "Main line of work",
+      "priority": 1
+    },
+    {
+      "name": "Kitchen remodels",
+      "facts": "Taken on more recently",
+      "priority": 2
+    }
+  ],
+  "service_area": {
+    "primary_town": "Belzoni, MS",
+    "towns": []
+  },
+  "brand": {
+    "logo_file": null,
+    "client_colors": []
+  },
+  "photos": [],
+  "proof": {
+    "rating": null,
+    "review_count": null,
+    "reviews": []
+  },
+  "voice": {
+    "owner_phrases": [],
+    "tone_notes": "No posts or texts from Jay on file."
+  },
+  "customer": {
+    "who_hires_them": {
+      "value": "Homeowners in and around Belzoni with a dated or worn bathroom, and lately kitchens",
+      "confirmed": false
+    },
+    "what_they_worry_about": {
+      "value": "A crew in their house for weeks, a mess left behind, sloppy finish work",
+      "confirmed": false
+    },
+    "what_they_want": {
+      "value": "A bathroom or kitchen they're glad to show company",
+      "confirmed": false
+    }
+  },
+  "differentiators": [
+    {
+      "value": "Customers describe high-class service",
+      "confirmed": false
+    },
+    {
+      "value": "Customers describe attention to detail",
+      "confirmed": false
+    }
+  ],
+  "domain": {
+    "wanted": null,
+    "already_owned": null
+  },
+  "sources": [
+    {
+      "field": "business.name",
+      "from": "Joe, in chat 2026-10-19",
+      "confirmed": false
+    },
+    {
+      "field": "business.owner_name",
+      "from": "Joe, in chat 2026-10-19",
+      "confirmed": false
+    },
+    {
+      "field": "business.phone",
+      "from": "Joe, in chat 2026-10-19",
+      "confirmed": false
+    },
+    {
+      "field": "business.owner_years_in_construction",
+      "from": "Joe, in chat 2026-10-19: 'working in construction for over 10 years'",
+      "confirmed": false
+    },
+    {
+      "field": "services",
+      "from": "Joe, in chat 2026-10-19: 'remodels for bathrooms and recently kitchens'",
+      "confirmed": false
+    },
+    {
+      "field": "service_area.primary_town",
+      "from": "Joe, in chat 2026-10-19",
+      "confirmed": false
+    },
+    {
+      "field": "differentiators",
+      "from": "Joe, in chat 2026-10-19: 'high-class service and attention to detail, according to customers'. No written reviews on file.",
+      "confirmed": false
+    },
+    {
+      "field": "web search",
+      "from": "Searched 'AKM Construction Belzoni Mississippi' 2026-10-19. No listing, page, or reviews found.",
+      "confirmed": false
+    }
+  ],
+  "gaps": [
+    "photos",
+    "logo",
+    "service_area.towns",
+    "services: what a typical bathroom or kitchen job includes",
+    "estimate: free or paid?",
+    "business.hours",
+    "business.license",
+    "business.insured",
+    "proof.reviews (customer words exist per Joe but none in writing)",
+    "about: how Jay got started, what AKM stands for"
+  ]
+}
