@@ -1,0 +1,90 @@
+{
+  "slug": "example-roofing",
+  "niche": "residential-construction",
+  "mode": "client",
+  "kit": "",
+
+  "business": {
+    "name": "Example Roofing",
+    "owner_name": "Sam Example",
+    "phone": "614-555-0100",
+    "texts_ok": true,
+    "email": null,
+    "address": null,
+    "show_address": false,
+    "hours": "Mon to Fri 7am to 5pm",
+    "license": null,
+    "insured": null,
+    "years_in_business": null
+  },
+
+  "services": [
+    { "name": "Roof replacement", "facts": "Asphalt shingle, tear-off included", "priority": 1 },
+    { "name": "Roof repair", "facts": "Leaks, storm damage, missing shingles", "priority": 2 }
+  ],
+
+  "service_area": {
+    "primary_town": "Columbus",
+    "towns": ["Grandview Heights", "Upper Arlington", "Hilliard"]
+  },
+
+  "brand": {
+    "logo_file": "raw/logo.png",
+    "client_colors": [
+      { "hex": "#C8102E", "from": "truck wrap photo", "estimated": true }
+    ]
+  },
+
+  "photos": [
+    {
+      "file": "raw/IMG_2041.jpg",
+      "shows": "Finished gray shingle roof on a two-story brick house",
+      "usable": true,
+      "use_on": "work"
+    }
+  ],
+
+  "proof": {
+    "rating": null,
+    "review_count": null,
+    "reviews": [
+      {
+        "text": "Exact review text copied word for word",
+        "author": "First name and last initial",
+        "source": "Google",
+        "owner_approved": false
+      }
+    ]
+  },
+
+  "voice": {
+    "owner_phrases": ["Exact words the owner wrote or said"],
+    "tone_notes": "Facts about how the owner talks, from their posts or texts"
+  },
+
+  "customer": {
+    "who_hires_them": { "value": "Homeowners with older roofs", "confirmed": false },
+    "what_they_worry_about": { "value": "Getting overcharged, crews that disappear mid-job", "confirmed": false },
+    "what_they_want": { "value": "A roof they stop thinking about", "confirmed": false }
+  },
+
+  "differentiators": [
+    { "value": "Owner is on every job", "confirmed": false }
+  ],
+
+  "domain": {
+    "wanted": null,
+    "already_owned": null
+  },
+
+  "sources": [
+    { "field": "business.phone", "from": "Facebook page About section", "confirmed": false },
+    { "field": "business.hours", "from": "Google listing", "confirmed": false }
+  ],
+
+  "gaps": [
+    "business.license",
+    "business.insured",
+    "business.years_in_business"
+  ]
+}

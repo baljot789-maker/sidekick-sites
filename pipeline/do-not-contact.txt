@@ -1,0 +1,2 @@
+# One business per line: name, phone, or email. Anyone who says "no thanks" or "stop" goes here the same day.
+# The Pitch agent checks this list before writing anything and stops on a match.
