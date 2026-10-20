@@ -1,0 +1,3 @@
+# Cloudflare Pages reads this file. It keeps every preview out of Google.
+/*
+  X-Robots-Tag: noindex, nofollow

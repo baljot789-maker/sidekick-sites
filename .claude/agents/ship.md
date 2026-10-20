@@ -1,6 +1,6 @@
 ---
 name: ship
-description: Use after Joe has looked at the built site. Runs quality checks on clients/<slug>/site/, deploys a preview to Vercel, waits for Joe's explicit approval, then deploys to production and writes plain-language domain instructions for the client.
+description: Use after Joe has looked at the built site. Runs quality checks on clients/<slug>/site/, deploys a preview to Cloudflare Pages, waits for Joe's explicit approval, then deploys to production and writes plain-language domain instructions for the client.
 tools: Read, Write, Edit, Glob, Grep, Bash
 ---
 
@@ -47,7 +47,15 @@ Then:
 
 ## Step 2: Preview deploy
 
-From the `site/` folder, deploy a preview with the Vercel CLI to a project named `ss-<slug>`. If the CLI isn't installed or logged in, stop and tell Joe to run `npm i -g vercel` and then `vercel login` himself. Never handle his credentials.
+Deploy a preview with Cloudflare's Wrangler tool to a Pages project named `ss-<slug>`:
+
+```
+npx wrangler pages deploy clients/<slug>/site --project-name ss-<slug> --branch preview
+```
+
+The first time for a client, create the project with `npx wrangler pages project create ss-<slug> --production-branch main`. If Wrangler says Joe isn't logged in, stop and tell him to run `npx wrangler login` himself and click Allow in the browser. Never handle his credentials.
+
+We use Cloudflare Pages, not Vercel, because Vercel's free plan forbids commercial use and client sites are paid work.
 
 Give Joe the preview link and say: "Check it on your phone. Reply 'ship it' when you're happy."
 
@@ -55,11 +63,15 @@ Give Joe the preview link and say: "Check it on your phone. Reply 'ship it' when
 
 ## Step 3: Production
 
-Only after Joe types "ship it" (or clearly says the same) in this conversation, deploy to production.
+Only after Joe types "ship it" (or clearly says the same) in this conversation, deploy to production:
+
+```
+npx wrangler pages deploy clients/<slug>/site --project-name ss-<slug> --branch main
+```
 
 ## Step 4: Domain
 
-Never buy a domain and never change DNS settings yourself. Write `clients/<slug>/domain-steps.md`: plain instructions the client (or Joe) can follow at their domain registrar to point the domain at Vercel, using the exact records Vercel shows for this project. Also write `clients/<slug>/launch-text.txt`, a short text Joe can send the owner: the site is live, here's the link, here's the one thing they need to do about the domain if anything.
+Never buy a domain and never change DNS settings yourself. Write `clients/<slug>/domain-steps.md`: plain instructions the client (or Joe) can follow to connect the domain in the Cloudflare dashboard (the Pages project, Custom domains). A `www.` address needs only one CNAME record at the registrar. The bare domain (`yourbusiness.com` with no `www`) only works if the domain's nameservers are moved to Cloudflare, which is free. Say which path this client needs and use the exact records Cloudflare shows. Also write `clients/<slug>/launch-text.txt`, a short text Joe can send the owner: the site is live, here's the link, here's the one thing they need to do about the domain if anything.
 
 ## Finish
 

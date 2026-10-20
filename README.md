@@ -31,15 +31,15 @@ previews/            the ONLY public folder, served at previews.scaleupsidekicks
 
 ## Hosting setup (one time, about 20 minutes, all done by you)
 
-These steps involve your accounts, so Claude won't do them for you.
+These steps involve your accounts, so Claude won't do them for you. Everything here is free. We use Cloudflare Pages because Vercel's free plan is for non-commercial use only, and previews for prospects count as commercial.
 
-1. **GitHub:** on github.com, create a new repository named `sidekick-sites`, set to **Private**, with no README. Then tell Claude Code: "Connect this repo to github.com/<your-username>/sidekick-sites and push."
-2. **Vercel plan:** Vercel's free Hobby plan is for non-commercial use only. Its rules name "receiving payment to create, update, or host the site" and "advertising the sale of a product or service" as commercial. Client sites and previews both count, and so does scaleupsidekicks.com. Upgrade the team to Pro before importing this.
-3. **Vercel project:** in Vercel, Add New, Project, import `sidekick-sites`. Under **Root Directory** choose `previews`. Framework: Other. Deploy.
-4. **Domain:** in that project, Settings, Domains, add `previews.scaleupsidekicks.com`. If Vercel shows a DNS record to add, add it wherever scaleupsidekicks.com's DNS lives.
+1. **GitHub:** on github.com, create a new repository named `sidekick-sites`, set to **Private**, with no README. Then tell Claude Code: "Connect this repo to github.com/<your-username>/sidekick-sites." You run the push yourself.
+2. **Cloudflare account:** sign up free at dash.cloudflare.com. No credit card needed.
+3. **Cloudflare Pages project:** in the dashboard, Workers & Pages, Create, Pages tab, Connect to Git. Let Cloudflare see only the `sidekick-sites` repo. Project name `ss-previews`, production branch `main`, framework preset **None**, build command blank, build output directory `previews`. Save and Deploy.
+4. **Domain:** in that project, Custom domains, add `previews.scaleupsidekicks.com`. Cloudflare shows one CNAME record. Add it wherever scaleupsidekicks.com's DNS lives.
 5. **Check it:** visiting previews.scaleupsidekicks.com should bounce you to scaleupsidekicks.com.
 
-Preview links work without a login because they're on the project's production domain. Vercel only puts a login wall in front of its own preview URLs.
+Every push to `main` redeploys the previews within a minute or two. Only the `previews/` folder is served. The `_headers` file inside it keeps every preview out of Google.
 
 ## Before your first email
 
@@ -70,7 +70,7 @@ The agents are version 1 and will be wrong in places. After each build, write do
 
 If a real build takes more than an hour of your time, find the step that ate it and fix that agent first.
 
-Going live on a client's own domain still uses the Vercel CLI (`npm i -g vercel`, then `vercel login`, both run by you). Previews don't need it.
+Going live on a client's own domain uses Cloudflare's command-line tool, Wrangler. The first time, you run `npx wrangler login` yourself and click Allow in the browser. Previews don't need it.
 
 ## Changes and monthly checks
 
