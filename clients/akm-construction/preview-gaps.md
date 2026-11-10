@@ -1,14 +1,27 @@
-# What's missing, and what the preview does without it
+# What's missing, and what the site does without it
 
-1. **Photos.** None on file. There are 15 arched frames across the site reading "Your job photos go here." Six to ten phone photos of finished bathrooms and kitchens would fill every one. Before and after pairs would be best.
-2. **Logo.** None. The header uses a typed "AKM / Construction" wordmark and the footer adds a round AKM seal. Both are stand-ins.
-3. **Reviews.** Customers praise the service, but nothing's in writing. The site leaves reviews out. Two or three real ones, with first names, would get their own section.
-4. **Towns served.** Only Belzoni. The site says "Belzoni, Mississippi and nearby."
-5. **What a job includes.** Tile, showers, tubs, vanities, cabinets, counters, flooring? The services pages stay general until Jay says.
-6. **How Jay got started, and what AKM stands for.** The About page is three short paragraphs for now.
-7. **Hours, license, insurance.** Left out entirely.
-8. **The phone number has a 614 (Columbus, Ohio) area code.** Fine if it's Jay's cell. Worth a glance, since local callers may notice.
+Updated 2026-11-10 from the Website Brief (2026-11-07).
 
-The quote form texts Joe's number (614-623-8379) until Jay says yes. Every Call and Text button uses Jay's number.
+## Blocks launch
 
-Design: no kit files yet. Built from Joe's brief ("Old Southern charm meets modern design") and the research in kits/residential-construction/. Magnolia cream, Delta green, aged brass, Libre Caslon with Libre Franklin, arched window frames, beadboard lines.
+1. **AKM customer number.** Left blank on purpose. Every Call and Text button is hidden until it's set. To add it, type it once at the top of `site/site.js` (`var PHONE = "";`), then copy the site into previews again. Pick a 662 number: that's the Belzoni area code.
+2. **Photos.** 15 arched frames read "Your job photos go here." The brief asks for at least 5 finished jobs with before and after, across bathrooms, kitchens and roofs, plus the commercial kitchen. A remodeler's site goes live only with real photos (patterns.md, rule 5).
+3. **Logo.** Joe is booking the designer. Until then the header uses a typed "AKM / Real Estate and Construction" wordmark and the footer a round AKM seal.
+4. **Domain.** Jay picks it and registers it in AKM's own account with two-factor sign-in.
+
+## Left off the site until it arrives
+
+5. **Licence number and proof of insurance.** The brief says licensed and insured in Mississippi. The site says nothing about it until the number and proof are in hand. Residential jobs over about $10,000 need a state contractor licence, which covers every kitchen and new build on the site.
+6. **FORTIFIED certification.** The site describes the work ("FORTIFIED roofing projects completed across the Mississippi Delta"), as the brief asks. It does not call Jay a certified FORTIFIED roofer until that's confirmed.
+7. **Customer quotes.** None in writing yet. When 2 or 3 arrive (word for word, first name, town, permission), they get a homepage section, ideally the ones about honesty, pricing or saving money.
+8. **Email, hours, how Jay got started, what AKM stands for.** Left out. The About page stays short.
+
+## Form
+
+The quote form texts Joe (614-623-8379) until the AKM number exists, per the preview rule. It opens the visitor's texting app with their details typed in, and tells them to attach photos, or blueprints for a new build, before sending. That covers the brief's blueprint upload for now with no outside service. A web form with file uploads (the brief's "From Joe" item) can replace it later. On a desktop computer, the text link may not open anything, so desktop visitors need the phone number once it exists.
+
+## Kept off version one (per the brief)
+
+Real estate services, named lenders or government programs, and any handyman or small-job language. The services page says plainly: "We don't do handyman work or small repairs."
+
+Design: unchanged from October. Magnolia cream, Delta green, aged brass, Libre Caslon with Libre Franklin, arched window frames, beadboard lines.

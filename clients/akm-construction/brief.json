@@ -4,34 +4,74 @@
   "mode": "preview",
   "kit": "none yet: built from Joe's direction ('Old Southern charm meets modern design') plus kits/residential-construction/research.md and patterns.md. Fonts: Libre Caslon Display, Libre Caslon Text, Libre Franklin (Google Fonts, SIL OFL).",
   "business": {
-    "name": "AKM Construction",
+    "name": "AKM Real Estate and Construction",
+    "short_name": "AKM",
     "owner_name": "Jay Singh",
-    "phone": "614-390-2931",
+    "phone": null,
+    "phone_note": "Leave blank until the new AKM customer number is set up (Joe). Per the partnership agreement, that number goes on the site and cards. Set it once, in site.js (PHONE).",
     "texts_ok": true,
     "email": null,
     "address": null,
     "show_address": false,
     "hours": null,
     "license": null,
+    "license_note": "Jay says licensed and insured in Mississippi. Not on the site until Jay sends the licence number and proof of insurance.",
     "insured": null,
+    "certifications": [
+      {
+        "value": "FORTIFIED certified roofer",
+        "confirmed": false,
+        "note": "Not stated as a certification on the site until verified. The site describes the work instead, as the brief asks."
+      }
+    ],
     "years_in_business": null,
-    "owner_years_in_construction": "more than 10"
+    "owner_years_in_construction": "10 to 12 (site says 'more than 10')",
+    "free_estimate": true
   },
   "services": [
     {
       "name": "Bathroom remodels",
-      "facts": "Main line of work",
-      "priority": 1
+      "priority": 1,
+      "facts": "Full remodels only. Includes demolition, new bathtub, needed plumbing and electrical, new lights, painting, trim and mirrors.",
+      "price": "$6,000 to $8,000 labor only for a 5 x 8 bathroom; materials extra",
+      "price_moves": "Bigger rooms, small or large-format tile, tile patterns"
     },
     {
       "name": "Kitchen remodels",
-      "facts": "Taken on more recently",
-      "priority": 2
+      "priority": 2,
+      "facts": "Full remodels only.",
+      "price": "$15,000 to $25,000 including cabinets, excluding granite",
+      "price_moves": "Islands, cabinet material"
+    },
+    {
+      "name": "Roofing",
+      "priority": 3,
+      "facts": "Own crew. Full replacements and repairs in shingle, metal and TPO. Handles storm insurance claims. Completed FORTIFIED roofing projects across the Mississippi Delta.",
+      "price": "Quoted per job"
+    },
+    {
+      "name": "New builds",
+      "priority": 4,
+      "facts": "Estimate from blueprints or other project documents.",
+      "price": "About $250,000 for 2,000 to 2,500 sq ft",
+      "price_moves": "Location"
+    },
+    {
+      "name": "General remodeling",
+      "priority": 5,
+      "facts": "Full remodels only. No handyman or small-job work.",
+      "price": "Quoted per job"
     }
   ],
   "service_area": {
     "primary_town": "Belzoni, MS",
-    "towns": []
+    "towns": [
+      "Yazoo City",
+      "Greenwood",
+      "Madison",
+      "Oxford"
+    ],
+    "region": "the Mississippi Delta"
   },
   "brand": {
     "logo_file": null,
@@ -41,7 +81,12 @@
   "proof": {
     "rating": null,
     "review_count": null,
-    "reviews": []
+    "reviews": [],
+    "story": {
+      "value": "Commercial kitchen rebuild: walls coated in grease, inside wrecked. Refitted in new stainless steel, space extended, plus roofing, HVAC and electrical. Raised the property's value. Proof of range only.",
+      "confirmed": true,
+      "photos": "before and after pending"
+    }
   },
   "voice": {
     "owner_phrases": [],
@@ -49,33 +94,43 @@
   },
   "customer": {
     "who_hires_them": {
-      "value": "Homeowners in and around Belzoni with a dated or worn bathroom, and lately kitchens",
-      "confirmed": false
+      "value": "Homeowners in Belzoni and the Delta who want a full, higher-end remodel, a new roof or a new house",
+      "confirmed": true
     },
     "what_they_worry_about": {
-      "value": "A crew in their house for weeks, a mess left behind, sloppy finish work",
-      "confirmed": false
+      "value": "Will the job get finished? Am I being overcharged?",
+      "confirmed": true
     },
     "what_they_want": {
-      "value": "A bathroom or kitchen they're glad to show company",
-      "confirmed": false
+      "value": "Work that stands for years, at a price they understand",
+      "confirmed": true
     }
   },
   "differentiators": [
     {
-      "value": "Customers describe high-class service",
-      "confirmed": false
+      "value": "Paid only as each milestone is completed. Clients can buy materials directly and have them delivered. Anything Jay buys is reimbursed at cost straight away.",
+      "confirmed": true
     },
     {
-      "value": "Customers describe attention to detail",
-      "confirmed": false
+      "value": "Open about labor costs. Walks clients through each choice, explains why a bigger spend is needed, looks for ways to save them money.",
+      "confirmed": true
+    },
+    {
+      "value": "Listens, lays out a clear plan, is straight about what's feasible and why, so the work stands for years.",
+      "confirmed": true
     }
   ],
   "domain": {
     "wanted": null,
-    "already_owned": null
+    "already_owned": false,
+    "note": "Jay picks it and registers it in AKM's own account with two-factor sign-in."
   },
   "sources": [
+    {
+      "field": "everything above",
+      "from": "ScaleUp Sidekicks Website Brief for AKM, Joe, 2026-11-07, from Joe's conversation with Jay",
+      "confirmed": true
+    },
     {
       "field": "business.name",
       "from": "Joe, in chat 2026-10-19",
@@ -118,16 +173,29 @@
     }
   ],
   "gaps": [
-    "photos",
-    "logo",
-    "service_area.towns",
-    "services: what a typical bathroom or kitchen job includes",
-    "estimate: free or paid?",
+    "business.phone (new AKM customer number)",
+    "logo (designer booked by Joe, about $60)",
+    "photos: at least 5 finished jobs, before and after, across bathrooms, kitchens and roofs",
+    "photos: commercial kitchen before and after",
+    "proof.reviews: 2 or 3 word-for-word quotes with first name, town and permission, ideally on honesty, transparent pricing or saving money",
+    "business.license number and proof of insurance",
+    "business.email",
+    "domain",
+    "form service that accepts file uploads (blueprints)",
     "business.hours",
-    "business.license",
-    "business.insured",
-    "proof.reviews (customer words exist per Joe but none in writing)",
     "about: how Jay got started, what AKM stands for"
   ],
-  "preview_path": "akm-construction-61pe"
+  "preview_path": "akm-construction-61pe",
+  "mode_note": "Jay is a paying client (Website Brief, 2026-11-07). The build stays in preview mode (banner, noindex, form to Joe) until photos, logo and the AKM number are in. Switch mode to client at launch.",
+  "materials": "AKM sources the core materials and bills them at receipt cost. Clients can buy their own fixtures and decorative pieces.",
+  "partner_trades": "Partner contractors for plumbing, electrical and concrete, so one call can cover a whole project. Partners not named.",
+  "calls_to_action": [
+    "Remodels and roofing: free estimate, ideally with a few photos of the space",
+    "New builds: send blueprints or project documents for an estimate"
+  ],
+  "keep_off_v1": [
+    "Real estate services (not running yet)",
+    "Named lenders or government programs until written permission",
+    "Any handyman or small-job language"
+  ]
 }
