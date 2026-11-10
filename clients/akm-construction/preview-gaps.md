@@ -20,6 +20,10 @@ Updated 2026-11-10 from the Website Brief (2026-11-07).
 
 The quote form texts Joe (614-623-8379) until the AKM number exists, per the preview rule. It opens the visitor's texting app with their details typed in, and tells them to attach photos, or blueprints for a new build, before sending. That covers the brief's blueprint upload for now with no outside service. A web form with file uploads (the brief's "From Joe" item) can replace it later. On a desktop computer, the text link may not open anything, so desktop visitors need the phone number once it exists.
 
+## Search
+
+Town names on the page help a little. Google Business Profile, with the service area, real photos and reviews, does far more for local search, and AKM has none. Previews are hidden from Google anyway, so none of this counts until launch.
+
 ## Kept off version one (per the brief)
 
 Real estate services, named lenders or government programs, and any handyman or small-job language. The services page says plainly: "We don't do handyman work or small repairs."

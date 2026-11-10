@@ -4,56 +4,94 @@
     "header_cta": "Free estimate",
     "bar_cta": "Get a free estimate",
     "footer_line": "Bathroom and kitchen remodels, roofing and new builds.",
-    "area_short": "Belzoni and the Mississippi Delta",
-    "closing_heading": "Free estimates in Belzoni and across the Delta",
+    "area_short": "Serving the Mississippi Delta, the Jackson area and Oxford",
+    "closing_heading": "Get a clear plan and a free estimate",
     "closing_cta": "Get a free estimate"
   },
-
   "home": {
-    "meta_title": "Bathroom and Kitchen Remodeling, Belzoni MS | AKM",
-    "meta_description": "Full bathroom and kitchen remodels, roofing and new builds in Belzoni and the Mississippi Delta. Prices up front and free estimates from AKM.",
-    "hero_eyebrow": "Belzoni and the Mississippi Delta",
-    "hero_headline": "Bathroom and kitchen remodeling in Belzoni and the Delta",
-    "hero_headline_emphasis": "in Belzoni and the Delta",
-    "hero_sub": "Jay Singh has more than 10 years in the trade. He listens first, then tells you straight what will work and why, so the job holds up for years.",
+    "meta_title": "Remodeling in the Delta, Jackson and Oxford, MS | AKM",
+    "meta_description": "Bathroom and kitchen remodels, roofing and new builds in the Mississippi Delta, Madison, Ridgeland, Jackson and Oxford. Free estimates.",
+    "hero_eyebrow": "The Delta, Jackson and Oxford",
+    "hero_headline": "Bathroom and kitchen remodeling in the Delta, Jackson and Oxford",
+    "hero_headline_emphasis": "in the Delta, Jackson and Oxford",
+    "hero_sub": "Get a clear plan and the labor cost before work starts. Then pay only as each stage is finished.",
     "cta_label": "Get a free estimate",
-    "cta_secondary": "See prices",
-    "services_heading": "What we build",
-    "services_teaser": [
-      { "name": "Bathrooms", "line": "Full remodels, from demolition to the new tub, lights and trim. Most 5 by 8 bathrooms run $6,000 to $8,000 in labor." },
-      { "name": "Kitchens", "line": "Full remodels with new cabinets. Most run $15,000 to $25,000, not counting granite." },
-      { "name": "Roofing", "line": "Replacements and repairs in shingle, metal and TPO, done by our own crew. We handle storm insurance claims." },
-      { "name": "New builds", "line": "Houses from about $250,000 for 2,000 to 2,500 square feet. Send us your plans for a price." }
+    "cta_secondary": "See typical prices",
+    "problem_heading": "A remodel shouldn't feel like a gamble",
+    "problem": [
+      "You want a bathroom or kitchen you're proud of. What worries you is the contractor: a price that keeps climbing, or a crew that disappears with the room torn apart.",
+      "You shouldn't have to hand over your savings and hope it works out."
+    ],
+    "guide_heading": "We built AKM around those worries",
+    "guide_empathy": "Trusting someone with tens of thousands of dollars and your home is a big step. We earn that trust in ways you can check.",
+    "guide_authority": [
+      "More than 10 years in the trade",
+      "Our own roofing crew",
+      "FORTIFIED roofing projects across the Delta",
+      "Partner plumbers, electricians and concrete crews"
     ],
     "money_heading": "Your money goes to finished work",
     "money_points": [
-      { "title": "You pay as each stage is done", "body": "Jay is paid when each part of the job is finished. You can buy materials yourself and have them delivered to the house. Anything Jay picks up, you pay back at cost." },
-      { "title": "You see what the labor costs", "body": "Jay shows you the labor cost and walks you through each choice. If something needs a bigger spend, he tells you why. If there's a way to save you money, he points it out." }
+      {
+        "title": "You pay as each stage is done",
+        "body": "We're paid when each part of the job is finished. Your money goes to work you can see, or to materials sitting at your house."
+      },
+      {
+        "title": "You see the labor cost up front",
+        "body": "We walk you through each choice. If something needs a bigger spend, we tell you why. If there's a way to save, we point it out."
+      }
+    ],
+    "services_heading": "What we build",
+    "services_teaser": [
+      {
+        "name": "Bathrooms",
+        "line": "Full remodels. Most 5 by 8 bathrooms run $6,000 to $8,000 in labor."
+      },
+      {
+        "name": "Kitchens",
+        "line": "Full remodels with new cabinets, usually $15,000 to $25,000 before granite."
+      },
+      {
+        "name": "Roofing",
+        "line": "Replacements and repairs by our own crew, with help on storm insurance claims."
+      },
+      {
+        "name": "New builds",
+        "line": "Houses from about $250,000 for 2,000 to 2,500 square feet."
+      }
     ],
     "plan_heading": "How it works",
     "plan_steps": [
       "Ask for a free estimate. Send a few photos of the space, or your plans for a new build.",
-      "Jay goes over the job with you and lays out a clear plan with the labor cost.",
-      "Work starts, and you pay as each stage is finished."
+      "Get a clear plan with the labor cost spelled out before any work starts.",
+      "Pay as each stage is finished, until the job is done."
     ],
+    "success_heading": "What finished looks like",
+    "success": "A bathroom you're glad to show company. A kitchen that works for the way you cook. A roof that holds through the next storm. And a final bill that matches the plan you agreed to.",
+    "stakes": "Pick the wrong contractor and you can end up paying twice: once for the job, and again to fix it.",
     "work_heading": "Recent work",
     "work_link": "See more of our work",
     "quote_heading": "Get a free estimate",
     "quote_sub": "Fill this in and your phone opens a text with your details typed in. Add a few photos of the space before you send it.",
-    "area_line": "We work in Belzoni, Yazoo City, Greenwood, Madison, Oxford and across the Mississippi Delta."
+    "area_line": "Serving the Mississippi Delta, the Jackson area and Oxford."
   },
-
   "services": {
-    "meta_title": "Remodeling, Roofing and New Builds in Belzoni, MS | AKM",
-    "meta_description": "Bathroom and kitchen remodels, roofing and new builds in Belzoni and the Mississippi Delta, with prices up front. Free estimates from AKM.",
+    "meta_title": "Remodeling, Roofing and New Builds in Mississippi | AKM",
+    "meta_description": "Bathroom and kitchen remodels, roofing and new builds in the Delta, Madison, Ridgeland, Jackson and Oxford, with typical prices up front.",
     "intro_heading": "Remodeling, roofing and new builds",
-    "intro": "We take on full remodels and bigger projects across the Mississippi Delta. We don't do handyman work or small repairs.",
+    "intro": "Full projects across the Delta, the Jackson area and Oxford, with typical prices you can see before you ask. We don't take handyman jobs or small repairs.",
     "blocks": [
       {
         "id": "bathrooms",
         "name": "Bathroom remodels",
-        "what_it_fixes": "A full bathroom remodel, start to finish.",
-        "whats_included": ["Demolition of the old bathroom", "A new bathtub", "The plumbing and electrical work the job needs", "New lights", "Paint, trim and mirrors"],
+        "what_it_fixes": "When the bathroom is worn out or dated, we tear it out and rebuild it, start to finish.",
+        "whats_included": [
+          "Demolition of the old bathroom",
+          "A new bathtub",
+          "The plumbing and electrical work the job needs",
+          "New lights",
+          "Paint, trim and mirrors"
+        ],
         "price": "$6,000 to $8,000 in labor for a 5 by 8 foot bathroom. Materials are extra.",
         "price_note": "Bigger rooms, small or large tiles and tile patterns change the price.",
         "cta": "Get a free bathroom estimate"
@@ -61,7 +99,7 @@
       {
         "id": "kitchens",
         "name": "Kitchen remodels",
-        "what_it_fixes": "A full kitchen remodel with new cabinets.",
+        "what_it_fixes": "When the kitchen no longer works for you, we rebuild it with new cabinets.",
         "whats_included": [],
         "price": "$15,000 to $25,000, cabinets included. Granite is extra.",
         "price_note": "An island or the cabinet material you pick changes the price.",
@@ -70,8 +108,12 @@
       {
         "id": "roofing",
         "name": "Roofing",
-        "what_it_fixes": "Full roof replacements and repairs, done by our own crew.",
-        "whats_included": ["Shingle, metal and TPO roofs", "Storm damage, with help on your insurance claim", "FORTIFIED roofing projects completed across the Mississippi Delta"],
+        "what_it_fixes": "When a storm hits or an old roof starts to leak, our own crew replaces or repairs it.",
+        "whats_included": [
+          "Shingle, metal and TPO roofs",
+          "Storm damage, with help on your insurance claim",
+          "FORTIFIED roofing projects completed across the Mississippi Delta"
+        ],
         "price": "Priced per job after a free estimate.",
         "price_note": "",
         "cta": "Get a free roofing estimate"
@@ -79,7 +121,7 @@
       {
         "id": "new-builds",
         "name": "New builds",
-        "what_it_fixes": "A new house, built from your plans.",
+        "what_it_fixes": "When you're ready to build, send us your plans and we'll price the house.",
         "whats_included": [],
         "price": "About $250,000 for a 2,000 to 2,500 square foot house.",
         "price_note": "Where you build changes the price.",
@@ -100,53 +142,96 @@
     "partners_heading": "One call for the whole project",
     "partners": "We work with partner contractors for plumbing, electrical and concrete, so one call can cover the whole job."
   },
-
   "work": {
-    "meta_title": "Remodeling and Roofing Photos, Belzoni MS | AKM",
-    "meta_description": "Finished bathrooms, kitchens and roofs from AKM Real Estate and Construction in Belzoni and the Mississippi Delta.",
+    "meta_title": "Remodeling and Roofing Photos, Mississippi | AKM",
+    "meta_description": "Finished bathrooms, kitchens and roofs from AKM Real Estate and Construction across the Mississippi Delta, the Jackson area and Oxford.",
     "intro_heading": "Recent work",
     "intro": "Finished bathrooms, kitchens and roofs from AKM jobs.",
     "story_heading": "A commercial kitchen, rebuilt",
     "story": [
-      "The walls were coated in grease and the inside was wrecked. AKM refitted the kitchen in new stainless steel and made the space bigger.",
+      "The walls were coated in grease and the inside was wrecked. We refitted the kitchen in new stainless steel and made the space bigger.",
       "We also did the roofing, HVAC and electrical, which raised the property's value. Most of our work is in homes. This job shows the range we take on."
     ],
     "captions": []
   },
-
   "about": {
-    "meta_title": "About Jay Singh | AKM Real Estate and Construction",
-    "meta_description": "AKM Real Estate and Construction is Jay Singh's company in Belzoni, Mississippi. More than 10 years in the trade. Free estimates.",
-    "heading": "About Jay Singh",
+    "meta_title": "About AKM Real Estate and Construction | Belzoni, MS",
+    "meta_description": "AKM Real Estate and Construction remodels and builds homes across the Mississippi Delta, the Jackson area and Oxford. Free estimates.",
+    "heading": "About AKM",
+    "lead": "Most homeowners worry a remodel will run over budget or never get finished. AKM gives you the plan and the labor cost up front, and you pay only as each stage is done.",
     "stat": "10+",
     "stat_label": "years in the trade",
     "body": [
-      "AKM Real Estate and Construction is Jay Singh's company in Belzoni, Mississippi. Jay has more than 10 years in the trade.",
-      "He starts every job by listening to what you want. Then he lays out a clear plan and tells you straight what's possible and why, so the work stands for years.",
-      "Jay is open about labor costs. He walks you through each choice and looks for ways to save you money.",
-      "For plumbing, electrical and concrete, Jay works with partner contractors, so one call covers the whole project."
+      "AKM Real Estate and Construction is a remodeling and building company based in Belzoni, Mississippi. We work across the Delta, the Jackson area and Oxford.",
+      "We take on full bathroom and kitchen remodels, roofing, new builds and other large remodels. We don't do handyman work or small repairs.",
+      "Our own crew handles roofing, and we've completed FORTIFIED roofing projects across the Delta. Partner contractors cover plumbing, electrical and concrete, so one call can cover the whole project."
+    ],
+    "how_heading": "How we work",
+    "how": [
+      {
+        "title": "A clear plan first",
+        "body": "Before work starts, you know what we'll do, what's possible and why, and what the labor costs."
+      },
+      {
+        "title": "Pay as each stage is done",
+        "body": "We're paid when each part of the job is finished, never for work you can't see."
+      },
+      {
+        "title": "Materials at cost",
+        "body": "Buy materials yourself and have them delivered, or we pick them up and bill them at what we paid."
+      },
+      {
+        "title": "Built to last",
+        "body": "We'd rather tell you a bigger spend is needed, and why, than build something that won't hold up."
+      }
     ]
   },
-
   "contact": {
     "meta_title": "Free Remodeling Estimates, Belzoni MS | AKM",
-    "meta_description": "Get a free estimate from AKM Real Estate and Construction for a remodel, roof or new build in Belzoni and the Mississippi Delta.",
+    "meta_description": "Free estimates from AKM Real Estate and Construction for remodels, roofs and new builds in the Delta, Madison, Ridgeland, Jackson and Oxford.",
     "heading": "Get a free estimate",
-    "intro": "Every job starts with a free estimate. Fill in the form and send a few photos of the space. For a new build, send your blueprints or plans.",
+    "intro": "Every job starts with a free estimate. Send a few photos of the space, or your blueprints for a new build, and we'll lay out the next step.",
     "facts": [
-      { "label": "Work", "value": "Bathroom and kitchen remodels, roofing and new builds" },
-      { "label": "Area", "value": "Belzoni, Yazoo City, Greenwood, Madison, Oxford and the Mississippi Delta" },
-      { "label": "Estimates", "value": "Free" }
+      {
+        "label": "Work",
+        "value": "Bathroom and kitchen remodels, roofing and new builds"
+      },
+      {
+        "label": "Estimates",
+        "value": "Free"
+      }
     ]
   },
-
   "form": {
     "project_label": "What's the project?",
-    "projects": ["Bathroom remodel", "Kitchen remodel", "Roofing", "New build", "Other remodel"],
+    "projects": [
+      "Bathroom remodel",
+      "Kitchen remodel",
+      "Roofing",
+      "New build",
+      "Other remodel"
+    ],
     "need_label": "Tell us about it",
     "need_hint": "Which room, and what you'd like done",
     "photo_tip": "When your texts open, add a few photos of the space before you hit send.",
     "plans_tip": "When your texts open, attach your blueprints or plans before you hit send.",
     "button": "Send by text"
+  },
+  "areas": {
+    "heading": "Where we work",
+    "groups": [
+      {
+        "name": "The Mississippi Delta",
+        "towns": "Belzoni, Yazoo City, Greenwood and towns across the Delta"
+      },
+      {
+        "name": "The Jackson area",
+        "towns": "Jackson, Madison, Ridgeland, Flowood and Brandon"
+      },
+      {
+        "name": "Oxford",
+        "towns": "Oxford and Lafayette County"
+      }
+    ]
   }
 }

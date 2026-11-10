@@ -732,3 +732,10 @@ p { margin: 0 0 1em; max-width: 62ch; }
 .service-block { scroll-margin-top: 1rem; }
 
 .footer-cta { font-family: var(--serif-text); font-size: 1.4rem; display: inline-flex; min-height: 44px; align-items: center; }
+
+/* Three service-area regions side by side, and the stacked money promises */
+@media (min-width: 900px) { .points-3 { grid-template-columns: repeat(3, 1fr); } }
+.points-stack { margin-top: 1rem; }
+@media (min-width: 700px) { .points-stack { grid-template-columns: 1fr; } }
+.points-title { color: var(--green); margin: 0; }
+.problem-grid h2 { margin: 0; }

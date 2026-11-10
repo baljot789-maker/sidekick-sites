@@ -65,13 +65,22 @@
   ],
   "service_area": {
     "primary_town": "Belzoni, MS",
+    "regions": [
+      "the Mississippi Delta",
+      "the Jackson area",
+      "Oxford"
+    ],
     "towns": [
       "Yazoo City",
       "Greenwood",
+      "Jackson",
       "Madison",
+      "Ridgeland",
+      "Flowood",
+      "Brandon",
       "Oxford"
     ],
-    "region": "the Mississippi Delta"
+    "note": "Delta towns, Madison and Oxford are from the 2026-11-07 brief. Jackson, Ridgeland, Flowood, Brandon and Lafayette County were added by Joe in chat 2026-11-10 for search (the affluent Jackson suburbs). Jay should confirm he takes jobs in each."
   },
   "brand": {
     "logo_file": null,

@@ -1,6 +1,6 @@
 # QA report: AKM Real Estate and Construction (preview, November rebuild)
 
-Run 2026-11-10 on clients/akm-construction/site/ (5 pages).
+Run 2026-11-10 on clients/akm-construction/site/ (5 pages), rerun after the StoryBrand rewrite: no em dashes, no TODOs, no ai-tells words, noindex and banner on every page, no hard-coded phone numbers, no sideways scroll at 375px or 1280px, no script errors.
 
 - PASS: No TODO, lorem, example.com, XXX in any page
 - PASS: No em dashes in visible text
