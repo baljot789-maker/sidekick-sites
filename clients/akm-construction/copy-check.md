@@ -6,7 +6,7 @@ Version 4, 2026-11-10. Joe asked for a StoryBrand structure, company voice inste
 
 | Part | On the page |
 |---|---|
-| The customer wants something | Hero: a remodel they won't second-guess, with the plan and labor cost first. Regions sit in the line under it. |
+| The customer wants something | Hero: "Turn your house into your forever home." It speaks to how they see themselves: someone settling in for good, not someone fixing a problem. The service, the regions and the money promise sit in the line under it. |
 | External problem | A dated bathroom or kitchen, a storm-damaged roof |
 | Internal problem | Worry about a price that keeps climbing, or a crew that disappears |
 | Philosophical problem | "You shouldn't have to hand over your savings and hope it works out." |
@@ -16,7 +16,7 @@ Version 4, 2026-11-10. Joe asked for a StoryBrand structure, company voice inste
 | Direct call to action | "Get a free estimate," on every screen |
 | Transitional call to action | "See typical prices" |
 | Failure | "You can end up paying twice: once for the job, and again to fix it." |
-| Success and identity | "You'll know you made the right call": the customer ends the story as someone who hired well, not someone who got lucky. The headline promises the same thing. |
+| Success and identity | "A home you'll want to stay in" closes the story the headline opened. |
 
 The home page is about 560 words. copy.md caps it at 350, and a full StoryBrand page can't fit in that. If Joe keeps this structure, raise the cap in `.claude/agents/copy.md`.
 
@@ -65,3 +65,7 @@ No hits on the banned word list, stacked transitions, em dashes or title case. T
 ## Words the builder added that aren't in copy.json
 
 Nav names, "Your name / phone / town," "Call or text," "Call," "Text," "Call Jay," "Text Jay," "More about bathrooms / kitchens / roofing / new builds," "Services," "Our work," "About," "Contact" eyebrows.
+
+## Reading level
+
+Measured with the Flesch-Kincaid grade formula (2026-11-11): home 2.3, services 2.9, work 2.8, about 4.1, contact 2.3. Every page is well under 8th grade. The only lines that score higher are headings and place names like "Mississippi Delta," which the formula scores high for their syllables.
