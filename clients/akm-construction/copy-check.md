@@ -6,7 +6,7 @@ Version 4, 2026-11-10. Joe asked for a StoryBrand structure, company voice inste
 
 | Part | On the page |
 |---|---|
-| The customer wants something | Hero: a remodel in their region, with the plan and labor cost first |
+| The customer wants something | Hero: a remodel they won't second-guess, with the plan and labor cost first. Regions sit in the line under it. |
 | External problem | A dated bathroom or kitchen, a storm-damaged roof |
 | Internal problem | Worry about a price that keeps climbing, or a crew that disappears |
 | Philosophical problem | "You shouldn't have to hand over your savings and hope it works out." |
@@ -16,9 +16,11 @@ Version 4, 2026-11-10. Joe asked for a StoryBrand structure, company voice inste
 | Direct call to action | "Get a free estimate," on every screen |
 | Transitional call to action | "See typical prices" |
 | Failure | "You can end up paying twice: once for the job, and again to fix it." |
-| Success | The bathroom you show company, the kitchen that works, the roof that holds, the bill that matches the plan |
+| Success and identity | "You'll know you made the right call": the customer ends the story as someone who hired well, not someone who got lucky. The headline promises the same thing. |
 
 The home page is about 560 words. copy.md caps it at 350, and a full StoryBrand page can't fit in that. If Joe keeps this structure, raise the cap in `.claude/agents/copy.md`.
+
+The headline no longer names a town, at Joe's request. That breaks rule 1 in `kits/residential-construction/patterns.md` (H1 names the service and the town). The service is still in the H1 and the regions are in the line under it and in every page title, so search still sees them. If Joe prefers this, change rule 1 to: "H1 names the service. The town or region goes in the line under it."
 
 ## Claims and where they come from
 
