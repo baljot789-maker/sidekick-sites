@@ -17,9 +17,9 @@
     "hero_sub": "We remodel bathrooms and kitchens across the Mississippi Delta, the Jackson area and Oxford. You get a clear plan and the labor cost up front, and you only pay as each stage is done.",
     "cta_label": "Get a free estimate",
     "cta_secondary": "See before and afters",
-    "problem_heading": "A remodel shouldn't feel like a gamble",
+    "problem_heading": "Pick the wrong contractor and you can end up paying twice: once for the job, and again to fix it.",
     "problem": [
-      "You want a bathroom or kitchen you're proud of. What worries you is the contractor: a price that keeps climbing, or a crew that disappears with the room torn apart.",
+      "You want a bathroom or kitchen you're proud of. What worries you is the contractor: a bill that keeps climbing, or a crew that disappears with the room torn apart.",
       "You shouldn't have to hand over your savings and hope it works out."
     ],
     "guide_heading": "We built AKM around those worries",
@@ -48,7 +48,7 @@
       },
       {
         "name": "Kitchens",
-        "line": "Full remodels with new cabinets, usually $15,000 to $25,000 before granite."
+        "line": "Full remodels with new cabinets. Send a few photos for a free estimate."
       }
     ],
     "plan_heading": "How it works",
@@ -59,7 +59,7 @@
     ],
     "success_heading": "A home you'll want to stay in",
     "success": "A bathroom you're glad to show company. A kitchen that works for the way you cook. And a final bill that matches the plan you agreed to.",
-    "stakes": "Pick the wrong contractor and you can end up paying twice: once for the job, and again to fix it.",
+    "stakes": "",
     "work_heading": "Before and after",
     "work_link": "See all our work",
     "quote_heading": "Get a free estimate",
@@ -67,7 +67,25 @@
     "area_line": "Serving the Mississippi Delta, the Jackson area and Oxford.",
     "see_heading": "See the difference",
     "see_sub": "Real AKM jobs. Drag the handle on a photo to slide from before to after, or swipe for the next job.",
-    "see_link": "See every job, step by step"
+    "see_link": "See every job, step by step",
+    "badges_label": "Credentials",
+    "badges": [
+      {
+        "title": "Licensed",
+        "sub": "in Mississippi",
+        "icon": "shield"
+      },
+      {
+        "title": "Insured",
+        "sub": "in Mississippi",
+        "icon": "umbrella"
+      },
+      {
+        "title": "FORTIFIED",
+        "sub": "certified roofer",
+        "icon": "house"
+      }
+    ]
   },
   "services": {
     "meta_title": "Bathroom and Kitchen Remodels in Mississippi | AKM",
@@ -95,8 +113,8 @@
         "name": "Kitchen remodels",
         "what_it_fixes": "When the kitchen no longer works for you, we rebuild it with new cabinets.",
         "whats_included": [],
-        "price": "$15,000 to $25,000, cabinets included. Granite is extra.",
-        "price_note": "An island or the cabinet material you pick changes the price.",
+        "price": "",
+        "price_note": "",
         "cta": "Get a free kitchen estimate"
       }
     ],
@@ -123,7 +141,7 @@
     "stat_label": "years in the trade",
     "body": [
       "AKM Real Estate and Construction is a remodeling and building company based in Belzoni, Mississippi. We work across the Delta, the Jackson area and Oxford.",
-      "We take on full bathroom and kitchen remodels. We don't do handyman work or small repairs.",
+      "AKM is licensed and insured in Mississippi. We take on full bathroom and kitchen remodels, and we don't do handyman work or small repairs.",
       "Partner contractors cover plumbing, electrical and concrete, so one call can cover the whole project."
     ],
     "how_heading": "How we work",

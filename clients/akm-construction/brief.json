@@ -16,17 +16,23 @@
     "hours": null,
     "license": null,
     "license_note": "Jay says licensed and insured in Mississippi. Not on the site until Jay sends the licence number and proof of insurance.",
-    "insured": null,
+    "insured": true,
     "certifications": [
       {
         "value": "FORTIFIED certified roofer",
         "confirmed": false,
-        "note": "Not stated as a certification on the site until verified. The site describes the work instead, as the brief asks."
+        "note": "From the brief. Verify in the IBHS FORTIFIED directory before launch. Roofing itself is off the site until there are photos."
       }
     ],
     "years_in_business": null,
     "owner_years_in_construction": "10 to 12 (site says 'more than 10')",
-    "free_estimate": true
+    "free_estimate": true,
+    "licensed": {
+      "value": true,
+      "source": "Website Brief 2026-11-07: 'Licensed and insured in Mississippi'",
+      "confirmed": false,
+      "note": "LAUNCH BLOCKER: get Jay's license number and proof of insurance before this goes live. Badges are on the preview only because Joe asked for them."
+    }
   },
   "services": [
     {
@@ -34,14 +40,16 @@
       "priority": 1,
       "facts": "Full remodels only. Includes demolition, new bathtub, needed plumbing and electrical, new lights, painting, trim and mirrors.",
       "price": "$6,000 to $8,000 labor only for a 5 x 8 bathroom; materials extra",
-      "price_moves": "Bigger rooms, small or large-format tile, tile patterns"
+      "price_moves": "Bigger rooms, small or large-format tile, tile patterns",
+      "show_price_on_site": false
     },
     {
       "name": "Kitchen remodels",
       "priority": 2,
       "facts": "Full remodels only.",
       "price": "$15,000 to $25,000 including cabinets, excluding granite",
-      "price_moves": "Islands, cabinet material"
+      "price_moves": "Islands, cabinet material",
+      "show_price_on_site": false
     },
     {
       "name": "Roofing",
@@ -49,7 +57,8 @@
       "facts": "Own crew. Full replacements and repairs in shingle, metal and TPO. Handles storm insurance claims. Completed FORTIFIED roofing projects across the Mississippi Delta.",
       "price": "Quoted per job",
       "on_site": false,
-      "off_site_reason": "No photos yet. Turn back on when Jay sends them."
+      "off_site_reason": "No photos yet. Turn back on when Jay sends them.",
+      "show_price_on_site": false
     },
     {
       "name": "New builds",
@@ -58,7 +67,8 @@
       "price": "About $250,000 for 2,000 to 2,500 sq ft",
       "price_moves": "Location",
       "on_site": false,
-      "off_site_reason": "No photos yet. Turn back on when Jay sends them."
+      "off_site_reason": "No photos yet. Turn back on when Jay sends them.",
+      "show_price_on_site": false
     },
     {
       "name": "General remodeling",
@@ -66,7 +76,8 @@
       "facts": "Full remodels only. No handyman or small-job work.",
       "price": "Quoted per job",
       "on_site": false,
-      "off_site_reason": "No photos yet. Turn back on when Jay sends them."
+      "off_site_reason": "No photos yet. Turn back on when Jay sends them.",
+      "show_price_on_site": false
     }
   ],
   "service_area": {
@@ -741,5 +752,6 @@
         }
       ]
     }
-  ]
+  ],
+  "pricing_on_site": "none (Joe, 2026-11-13). Price ranges stay in this file for estimates only."
 }

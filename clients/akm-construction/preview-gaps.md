@@ -12,7 +12,7 @@ Updated 2026-11-10 from the Website Brief (2026-11-07).
 
 ## Left off the site until it arrives
 
-5. **Licence number and proof of insurance.** The brief says licensed and insured in Mississippi. The site says nothing about it until the number and proof are in hand. Residential jobs over about $10,000 need a state contractor licence, which covers every kitchen and new build on the site.
+5. **Licence number and proof of insurance. LAUNCH BLOCKER.** The home page now shows three badges (Licensed in Mississippi, Insured in Mississippi, FORTIFIED certified roofer), added because Joe asked and because the Website Brief says so. Nothing on the site is backed by paperwork yet. Before launch: get Jay's licence number and proof of insurance, and check the FORTIFIED listing. Residential jobs over about $10,000 need a state contractor licence, which covers every kitchen. The FORTIFIED badge is a roofing credential, and roofing is off the site until there are photos, so expect people to ask.
 6. **FORTIFIED certification.** The site describes the work ("FORTIFIED roofing projects completed across the Mississippi Delta"), as the brief asks. It does not call Jay a certified FORTIFIED roofer until that's confirmed.
 7. **Customer quotes.** None in writing yet. When 2 or 3 arrive (word for word, first name, town, permission), they get a homepage section, ideally the ones about honesty, pricing or saving money.
 8. **Email, hours, how Jay got started, what AKM stands for.** Left out. The About page stays short.
@@ -49,6 +49,7 @@ Every job is its own sideways strip: Before, then the steps, then After. Tap a p
 
 **The Custom kitchen near Belzoni after photo has a worker in it** (IMG_3395, his back and cap, face not visible). Jay should be fine with it, or we swap it. The matching hood photo without a person (IMG_3400) has a location tag 2.4 km from the before, so it stays out until Jay confirms it's the same kitchen.
 
+
 ## Pricing
 
-The bathroom price range ($6,000 to $8,000 for a 5 by 8) is off the site. The kitchen range ($15,000 to $25,000) is still on the Kitchens card on the home page and on the Services page. Joe asked only about the bathroom one. If the kitchen price should go too, it is one line in `copy.json`.
+No prices anywhere on the site (Joe, Nov 13). The ranges stay in `brief.json` for estimates only.

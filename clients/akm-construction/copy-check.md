@@ -85,3 +85,10 @@ Before and after captions: "Before" and "After" plus a short note. The Inverness
 - Bathroom pricing removed (services page, home teaser, price note). The kitchen price stays.
 - Home page now opens with a "See the difference" before-and-after scroller right after the hero. Each card is a drag-to-reveal slider. It sweeps from before to after once as it scrolls into view, then the visitor can drag. It stays still for anyone with reduced motion turned on.
 - Job titles describe what is in the photos ("Kitchen with a copper hood", "Kitchen with a granite island"), so two kitchens near Belzoni can't be confused. "Master bath" became "A bathroom in Moorhead" because nothing confirms it is the master.
+
+## November 13, second round
+
+- The hero photo is gone and the page moved up. Hero is text only.
+- "Pick the wrong contractor and you can end up paying twice: once for the job, and again to fix it." is now the opening line of the problem section, and no longer repeats near the bottom.
+- Credential badges right after the hero: Licensed in Mississippi, Insured in Mississippi, FORTIFIED certified roofer. Source: Website Brief, not paperwork. See preview-gaps.md, item 5.
+- All dollar figures are off the site, including the kitchen range. "A price that keeps climbing" became "a bill that keeps climbing."
