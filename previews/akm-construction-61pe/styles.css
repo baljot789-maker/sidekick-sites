@@ -900,25 +900,51 @@ body.lb-open { overflow: hidden; }
 @media (min-width: 900px) { .hero { padding: 5rem 0 5.25rem; } .hero-grid { grid-template-columns: 1fr; gap: 0; } }
 
 .badges { padding: 1.25rem 0; border-bottom: 1px solid var(--line); }
-.badge-row { list-style: none; margin: 0 auto; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; max-width: 760px; }
+.badge-row { list-style: none; margin: 0 auto; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; max-width: 660px; }
+/* Three seals, one size. Double ring, brass rule, same type on every one. */
 .badge {
+  position: relative;
   display: grid;
+  grid-template-rows: auto auto 1fr;
   justify-items: center;
-  gap: 0.45rem;
+  align-content: center;
+  gap: 0.5rem;
+  min-height: 150px;
+  padding: 1rem 0.35rem 0.95rem;
   text-align: center;
-  padding: 0.85rem 0.4rem 0.8rem;
   background: var(--paper);
-  border: 1.5px solid var(--brass-ink);
-  box-shadow: inset 0 0 0 3px var(--paper), inset 0 0 0 4px rgba(122, 90, 31, 0.45);
-  border-radius: 18px;
+  border: 2px solid var(--brass-ink);
+  border-radius: 16px;
+  box-shadow: inset 0 0 0 4px var(--paper), inset 0 0 0 5px rgba(122, 90, 31, 0.55);
 }
-.badge-icon { width: 40px; height: 40px; border-radius: 50%; background: var(--green); color: var(--brass); display: grid; place-items: center; }
-.badge-text { display: grid; gap: 0.1rem; line-height: 1.2; }
-.badge-text b { font-family: var(--serif-text); font-size: 1.05rem; font-weight: 700; color: var(--green); letter-spacing: 0.02em; }
-.badge-text span { font-size: 0.8rem; color: var(--muted); }
+.badge-icon {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  background: var(--green);
+  color: var(--brass);
+  display: grid; place-items: center;
+  box-shadow: 0 0 0 3px var(--paper), 0 0 0 4px var(--brass-ink);
+}
+.badge-text { display: grid; justify-items: center; gap: 0.35rem; line-height: 1.2; }
+.badge-text b {
+  font-family: var(--sans);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--green);
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--brass-ink);
+  width: 100%;
+  max-width: 7.5em;
+}
+.badge-text span { font-size: 0.78rem; color: var(--muted); font-weight: 500; }
 @media (min-width: 600px) {
-  .badge { grid-template-columns: auto 1fr; justify-items: start; text-align: left; gap: 0.8rem; padding: 0.9rem 1.1rem; align-items: center; }
-  .badge-text span { font-size: 0.88rem; }
+  .badge-row { gap: 16px; }
+  .badge { min-height: 168px; padding: 1.2rem 0.6rem 1.1rem; gap: 0.65rem; }
+  .badge-icon { width: 50px; height: 50px; }
+  .badge-text b { font-size: 0.88rem; max-width: 8em; }
+  .badge-text span { font-size: 0.9rem; }
 }
 
 .hook .hook-line {
@@ -930,3 +956,6 @@ body.lb-open { overflow: hidden; }
 }
 .hook-body { display: grid; gap: 0; max-width: 62ch; }
 .hook-body p { font-size: 1.15rem; }
+
+.badge-icon svg { width: 26px; height: 26px; }
+@media (min-width: 600px) { .badge-icon svg { width: 30px; height: 30px; } }
