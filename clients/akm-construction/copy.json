@@ -16,7 +16,7 @@
     "hero_headline_emphasis": "your forever home",
     "hero_sub": "We remodel bathrooms and kitchens across the Mississippi Delta, the Jackson area and Oxford. You get a clear plan and the labor cost up front, and you only pay as each stage is done.",
     "cta_label": "Get a free estimate",
-    "cta_secondary": "See typical prices",
+    "cta_secondary": "See before and afters",
     "problem_heading": "A remodel shouldn't feel like a gamble",
     "problem": [
       "You want a bathroom or kitchen you're proud of. What worries you is the contractor: a price that keeps climbing, or a crew that disappears with the room torn apart.",
@@ -44,7 +44,7 @@
     "services_teaser": [
       {
         "name": "Bathrooms",
-        "line": "Full remodels. Most 5 by 8 bathrooms run $6,000 to $8,000 in labor."
+        "line": "Full remodels, from demolition to the new tub, lights and trim."
       },
       {
         "name": "Kitchens",
@@ -64,13 +64,16 @@
     "work_link": "See all our work",
     "quote_heading": "Get a free estimate",
     "quote_sub": "Fill this in and your phone opens a text with your details typed in. Add a few photos of the space before you send it.",
-    "area_line": "Serving the Mississippi Delta, the Jackson area and Oxford."
+    "area_line": "Serving the Mississippi Delta, the Jackson area and Oxford.",
+    "see_heading": "See the difference",
+    "see_sub": "Real AKM jobs. Drag the handle on a photo to slide from before to after, or swipe for the next job.",
+    "see_link": "See every job, step by step"
   },
   "services": {
     "meta_title": "Bathroom and Kitchen Remodels in Mississippi | AKM",
-    "meta_description": "Full bathroom and kitchen remodels in the Delta, Madison, Ridgeland, Jackson and Oxford, with typical prices up front. Free estimates from AKM.",
+    "meta_description": "Full bathroom and kitchen remodels in the Delta, Madison, Ridgeland, Jackson and Oxford. A clear plan and a free estimate from AKM.",
     "intro_heading": "Bathroom and kitchen remodels",
-    "intro": "Full remodels across the Delta, the Jackson area and Oxford, with typical prices you can see before you ask. We don't take handyman jobs or small repairs.",
+    "intro": "Full remodels across the Delta, the Jackson area and Oxford. We don't take handyman jobs or small repairs.",
     "blocks": [
       {
         "id": "bathrooms",
@@ -83,8 +86,8 @@
           "New lights",
           "Paint, trim and mirrors"
         ],
-        "price": "$6,000 to $8,000 in labor for a 5 by 8 foot bathroom. Materials are extra.",
-        "price_note": "Bigger rooms, small or large tiles and tile patterns change the price.",
+        "price": "",
+        "price_note": "",
         "cta": "Get a free bathroom estimate"
       },
       {

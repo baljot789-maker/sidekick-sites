@@ -96,7 +96,7 @@
     {
       "site": "images/moorhead-1-before.jpg",
       "alt": "Dated bathroom with wallpaper, a corner tub and a cream vanity",
-      "caption": "Bathroom remodel, Moorhead, 2026",
+      "caption": "A bathroom in Moorhead, Moorhead, 2026",
       "w": 1200,
       "h": 1600,
       "drive_folder": "Apr 14 - Aug 5, 2026",
@@ -104,9 +104,9 @@
       "use_on": []
     },
     {
-      "site": "images/moorhead-2-demo.jpg",
-      "alt": "Bathroom stripped to the floor during demolition",
-      "caption": "Bathroom remodel, Moorhead, 2026",
+      "site": "images/moorhead-2-demolition.jpg",
+      "alt": "Floor and walls torn out to the studs",
+      "caption": "A bathroom in Moorhead, Moorhead, 2026",
       "w": 1200,
       "h": 1600,
       "drive_folder": "Apr 14 - Aug 5, 2026",
@@ -114,9 +114,29 @@
       "use_on": []
     },
     {
-      "site": "images/moorhead-3-tile.jpg",
-      "alt": "Wall tile going up in a stair-step pattern with a navy cabinet above",
-      "caption": "Bathroom remodel, Moorhead, 2026",
+      "site": "images/moorhead-3-plumbing.jpg",
+      "alt": "New supply lines run through the open wall",
+      "caption": "A bathroom in Moorhead, Moorhead, 2026",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Apr 14 - Aug 5, 2026",
+      "file": "raw/drive-all/Apr 14 - Aug 5, 2026/IMG_9181.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/moorhead-4-vanity.jpg",
+      "alt": "New dark vanity with lit mirrors on a fresh tile floor",
+      "caption": "A bathroom in Moorhead, Moorhead, 2026",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Apr 14 - Aug 5, 2026",
+      "file": "raw/drive-all/Apr 14 - Aug 5, 2026/IMG_9289.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/moorhead-5-tile.jpg",
+      "alt": "Wall tile going up in a stair-step pattern below a navy cabinet",
+      "caption": "A bathroom in Moorhead, Moorhead, 2026",
       "w": 1200,
       "h": 1600,
       "drive_folder": "Apr 14 - Aug 5, 2026",
@@ -124,9 +144,9 @@
       "use_on": []
     },
     {
-      "site": "images/moorhead-4-after.jpg",
+      "site": "images/moorhead-6-after.jpg",
       "alt": "Finished bathroom with a freestanding tub, a marble-look floor and a round chandelier",
-      "caption": "Bathroom remodel, Moorhead, 2026",
+      "caption": "A bathroom in Moorhead, Moorhead, 2026",
       "w": 1200,
       "h": 1600,
       "drive_folder": "Apr 14 - Aug 5, 2026",
@@ -140,7 +160,7 @@
     {
       "site": "images/inverness-1-waterproofed.jpg",
       "alt": "Shower pan and walls sealed with waterproof board before any tile",
-      "caption": "Shower remodel, Inverness, 2026",
+      "caption": "A shower in Inverness, Inverness, 2026",
       "w": 1200,
       "h": 1600,
       "drive_folder": "Inverness - Dec 20, 2025 - Jan 13, 2026",
@@ -148,9 +168,19 @@
       "use_on": []
     },
     {
-      "site": "images/inverness-2-tile.jpg",
-      "alt": "Large wall tile and a hex mosaic floor going in with spacers",
-      "caption": "Shower remodel, Inverness, 2026",
+      "site": "images/inverness-2-floor.jpg",
+      "alt": "Hex mosaic floor tile going into the shower pan",
+      "caption": "A shower in Inverness, Inverness, 2026",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Inverness - Dec 20, 2025 - Jan 13, 2026",
+      "file": "raw/drive-all/Inverness - Dec 20, 2025 - Jan 13, 2026/IMG_7262.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/inverness-3-tile.jpg",
+      "alt": "Large wall tile going up with spacers",
+      "caption": "A shower in Inverness, Inverness, 2026",
       "w": 1200,
       "h": 1600,
       "drive_folder": "Inverness - Dec 20, 2025 - Jan 13, 2026",
@@ -158,9 +188,19 @@
       "use_on": []
     },
     {
-      "site": "images/inverness-3-finished.jpg",
+      "site": "images/inverness-4-walls.jpg",
+      "alt": "Tiled walls, niche and bench finished",
+      "caption": "A shower in Inverness, Inverness, 2026",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Inverness - Dec 20, 2025 - Jan 13, 2026",
+      "file": "raw/drive-all/Inverness - Dec 20, 2025 - Jan 13, 2026/IMG_7501.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/inverness-5-finished.jpg",
       "alt": "Finished tiled shower with a bench, a niche and a hex mosaic floor",
-      "caption": "Shower remodel, Inverness, 2026",
+      "caption": "A shower in Inverness, Inverness, 2026",
       "w": 1200,
       "h": 1600,
       "drive_folder": "Inverness - Dec 20, 2025 - Jan 13, 2026",
@@ -170,9 +210,9 @@
       ]
     },
     {
-      "site": "images/brick-1-before.jpg",
+      "site": "images/hood-1-before.jpg",
       "alt": "Bare reclaimed brick wall with outlet boxes in a row and a cabinet box on the floor",
-      "caption": "Custom kitchen, near Belzoni, 2025",
+      "caption": "Kitchen with a copper hood, near Belzoni, 2025",
       "w": 1600,
       "h": 1387,
       "drive_folder": "Nov 1, 2024 - Mar 27, 2025",
@@ -180,21 +220,31 @@
       "use_on": []
     },
     {
-      "site": "images/brick-2-after.jpg",
-      "alt": "The same brick wall finished with stained cabinets, a pendant light and a copper range hood",
-      "caption": "Custom kitchen, near Belzoni, 2025",
+      "site": "images/hood-2-cabinets.jpg",
+      "alt": "Upper and base cabinet boxes going in along the brick wall",
+      "caption": "Kitchen with a copper hood, near Belzoni, 2025",
       "w": 1200,
       "h": 1600,
       "drive_folder": "Nov 1, 2024 - Mar 27, 2025",
-      "file": "raw/drive-all/Nov 1, 2024 - Mar 27, 2025/IMG_3395.JPG",
+      "file": "raw/drive-all/Nov 1, 2024 - Mar 27, 2025/IMG_1990.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/hood-3-after.jpg",
+      "alt": "Copper range hood on the brick wall between stained cabinets",
+      "caption": "Kitchen with a copper hood, near Belzoni, 2025",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Nov 1, 2024 - Mar 27, 2025",
+      "file": "raw/drive-all/Nov 1, 2024 - Mar 27, 2025/IMG_3411.JPG",
       "use_on": [
         "service:kitchens"
       ]
     },
     {
-      "site": "images/build-1-before.jpg",
+      "site": "images/island-1-before.jpg",
       "alt": "Base cabinets set against bare drywall on a plywood floor",
-      "caption": "Kitchen, near Belzoni, 2024",
+      "caption": "Kitchen with a granite island, near Belzoni, 2024",
       "w": 1200,
       "h": 1600,
       "drive_folder": "Jul 8 - Oct 31, 2024",
@@ -202,9 +252,39 @@
       "use_on": []
     },
     {
-      "site": "images/build-2-after.jpg",
+      "site": "images/island-2-cabinets.jpg",
+      "alt": "Cabinets going in along the far wall of a big open room",
+      "caption": "Kitchen with a granite island, near Belzoni, 2024",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Jul 8 - Oct 31, 2024",
+      "file": "raw/drive-all/Jul 8 - Oct 31, 2024/IMG_9879.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/island-3-island.jpg",
+      "alt": "Granite top on the island with a wood front",
+      "caption": "Kitchen with a granite island, near Belzoni, 2024",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Jul 8 - Oct 31, 2024",
+      "file": "raw/drive-all/Jul 8 - Oct 31, 2024/IMG_1255.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/island-4-finished.jpg",
+      "alt": "White cabinets around a built-in oven and microwave",
+      "caption": "Kitchen with a granite island, near Belzoni, 2024",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Jul 8 - Oct 31, 2024",
+      "file": "raw/drive-all/Jul 8 - Oct 31, 2024/IMG_1801.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/island-5-after.jpg",
       "alt": "Finished kitchen with white cabinets, granite, a stone backsplash and a steel hood by the window",
-      "caption": "Kitchen, near Belzoni, 2024",
+      "caption": "Kitchen with a granite island, near Belzoni, 2024",
       "w": 1200,
       "h": 1600,
       "drive_folder": "Jul 8 - Oct 31, 2024",
@@ -215,13 +295,55 @@
       ]
     },
     {
-      "site": "images/build-3-after.jpg",
-      "alt": "White cabinets around a built-in oven and microwave",
-      "caption": "Kitchen, near Belzoni, 2024",
+      "site": "images/tubbath-1-before.jpg",
+      "alt": "Old tub and shower with a curtain, a window and a toilet",
+      "caption": "A tub and shower near Belzoni, near Belzoni, 2025",
       "w": 1200,
       "h": 1600,
-      "drive_folder": "Jul 8 - Oct 31, 2024",
-      "file": "raw/drive-all/Jul 8 - Oct 31, 2024/IMG_1797.JPG",
+      "drive_folder": "Aug 4 - Nov 18, 2025",
+      "file": "raw/drive-all/Aug 4 - Nov 18, 2025/IMG_5428.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/tubbath-2-framed.jpg",
+      "alt": "Walls framed with a niche and a new tub going in",
+      "caption": "A tub and shower near Belzoni, near Belzoni, 2025",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Aug 4 - Nov 18, 2025",
+      "file": "raw/drive-all/Aug 4 - Nov 18, 2025/IMG_6649.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/tubbath-3-tile.jpg",
+      "alt": "Tall stacked tile going up around the tub",
+      "caption": "A tub and shower near Belzoni, near Belzoni, 2025",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Aug 4 - Nov 18, 2025",
+      "file": "raw/drive-all/Aug 4 - Nov 18, 2025/IMG_6661.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/tubbath-4-after.jpg",
+      "alt": "New tiled tub surround with a window and a niche",
+      "caption": "A tub and shower near Belzoni, near Belzoni, 2025",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Aug 4 - Nov 18, 2025",
+      "file": "raw/drive-all/Aug 4 - Nov 18, 2025/IMG_6776.JPG",
+      "use_on": [
+        "service:bathrooms"
+      ]
+    },
+    {
+      "site": "images/tubbath-5-fixtures.jpg",
+      "alt": "Finished tile and brass shower fixtures over the tub",
+      "caption": "A tub and shower near Belzoni, near Belzoni, 2025",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Aug 4 - Nov 18, 2025",
+      "file": "raw/drive-all/Aug 4 - Nov 18, 2025/IMG_6909.JPG",
       "use_on": []
     },
     {
@@ -234,19 +356,6 @@
       "file": "raw/drive-all/Aug 4 - Nov 18, 2025/IMG_6574.JPG",
       "use_on": [
         "about",
-        "service:bathrooms",
-        "more"
-      ]
-    },
-    {
-      "site": "images/more-tub-surround.jpg",
-      "alt": "New soaker tub with a floor-to-ceiling tile surround",
-      "caption": "Bathroom remodel, near Belzoni, 2025",
-      "w": 1200,
-      "h": 1600,
-      "drive_folder": "Aug 4 - Nov 18, 2025",
-      "file": "raw/drive-all/Aug 4 - Nov 18, 2025/IMG_6774.JPG",
-      "use_on": [
         "service:bathrooms",
         "more"
       ]
@@ -453,7 +562,7 @@
       "why": "Same panels, emoji text overlay baked in."
     }
   ],
-  "photos_source": "Google Drive folder 'Web project - AKM' (375 photos, 177 videos; 96 photos opened). Originals in raw/drive-all/<Drive folder name>/ (not in git). Photos ordered by camera time. Each job's photos are checked to come from one Drive folder and one address.",
+  "photos_source": "Google Drive folder 'Web project - AKM' (375 photos, 177 videos). About half the photos opened (179), sorted by camera time. Originals in raw/drive-all/<Drive folder name>/ (not in git). Each job is checked to come from one Drive folder and one address.",
   "sections_hidden": [
     "roofing",
     "new builds",
@@ -462,94 +571,173 @@
   ],
   "jobs": [
     {
-      "id": "moorhead-bath",
-      "title": "A master bath in Moorhead",
+      "id": "moorhead",
+      "title": "A bathroom in Moorhead",
       "place": "Moorhead",
       "year": 2026,
       "note": "From the old bath to the finished room.",
       "drive_folder": "Apr 14 - Aug 5, 2026",
-      "verified": "every photo within 150 m of the first, same Drive folder",
+      "verified": "all photos within 150 m of the first, one Drive folder",
+      "compare": [
+        "images/moorhead-1-before.jpg",
+        "images/moorhead-6-after.jpg"
+      ],
       "slides": [
         {
           "site": "images/moorhead-1-before.jpg",
           "tag": "Before"
         },
         {
-          "site": "images/moorhead-2-demo.jpg",
+          "site": "images/moorhead-2-demolition.jpg",
           "tag": "Demolition"
         },
         {
-          "site": "images/moorhead-3-tile.jpg",
+          "site": "images/moorhead-3-plumbing.jpg",
+          "tag": "Plumbing"
+        },
+        {
+          "site": "images/moorhead-4-vanity.jpg",
+          "tag": "New vanity"
+        },
+        {
+          "site": "images/moorhead-5-tile.jpg",
           "tag": "Tile going up"
         },
         {
-          "site": "images/moorhead-4-after.jpg",
+          "site": "images/moorhead-6-after.jpg",
           "tag": "After"
         }
       ]
     },
     {
-      "id": "inverness-shower",
+      "id": "inverness",
       "title": "A shower in Inverness",
       "place": "Inverness",
       "year": 2026,
       "note": "From the waterproof layer to the finished shower.",
       "drive_folder": "Inverness - Dec 20, 2025 - Jan 13, 2026",
-      "verified": "every photo within 150 m of the first, same Drive folder",
+      "verified": "all photos within 150 m of the first, one Drive folder",
+      "compare": [
+        "images/inverness-1-waterproofed.jpg",
+        "images/inverness-5-finished.jpg"
+      ],
       "slides": [
         {
           "site": "images/inverness-1-waterproofed.jpg",
           "tag": "Waterproofed"
         },
         {
-          "site": "images/inverness-2-tile.jpg",
+          "site": "images/inverness-2-floor.jpg",
+          "tag": "Floor tile"
+        },
+        {
+          "site": "images/inverness-3-tile.jpg",
           "tag": "Tile going up"
         },
         {
-          "site": "images/inverness-3-finished.jpg",
+          "site": "images/inverness-4-walls.jpg",
+          "tag": "Walls done"
+        },
+        {
+          "site": "images/inverness-5-finished.jpg",
           "tag": "Finished"
         }
       ]
     },
     {
-      "id": "kitchen-brick",
-      "title": "A custom kitchen near Belzoni",
+      "id": "hood",
+      "title": "Kitchen with a copper hood",
       "place": "near Belzoni",
       "year": 2025,
-      "note": "The same brick wall, before and after.",
+      "note": "From a bare brick wall to a copper range hood.",
       "drive_folder": "Nov 1, 2024 - Mar 27, 2025",
-      "verified": "every photo within 150 m of the first, same Drive folder",
+      "verified": "all photos within 150 m of the first, one Drive folder",
+      "compare": [
+        "images/hood-1-before.jpg",
+        "images/hood-3-after.jpg"
+      ],
       "slides": [
         {
-          "site": "images/brick-1-before.jpg",
+          "site": "images/hood-1-before.jpg",
           "tag": "Before"
         },
         {
-          "site": "images/brick-2-after.jpg",
+          "site": "images/hood-2-cabinets.jpg",
+          "tag": "Cabinets going in"
+        },
+        {
+          "site": "images/hood-3-after.jpg",
           "tag": "After"
         }
       ]
     },
     {
-      "id": "kitchen-build",
-      "title": "A kitchen near Belzoni",
+      "id": "island",
+      "title": "Kitchen with a granite island",
       "place": "near Belzoni",
       "year": 2024,
-      "note": "Cabinets set to a finished kitchen.",
+      "note": "From bare cabinet frames to a finished kitchen.",
       "drive_folder": "Jul 8 - Oct 31, 2024",
-      "verified": "every photo within 150 m of the first, same Drive folder",
+      "verified": "all photos within 150 m of the first, one Drive folder",
+      "compare": [
+        "images/island-1-before.jpg",
+        "images/island-5-after.jpg"
+      ],
       "slides": [
         {
-          "site": "images/build-1-before.jpg",
+          "site": "images/island-1-before.jpg",
           "tag": "Before"
         },
         {
-          "site": "images/build-2-after.jpg",
+          "site": "images/island-2-cabinets.jpg",
+          "tag": "Cabinets going in"
+        },
+        {
+          "site": "images/island-3-island.jpg",
+          "tag": "Granite island"
+        },
+        {
+          "site": "images/island-4-finished.jpg",
+          "tag": "Finished"
+        },
+        {
+          "site": "images/island-5-after.jpg",
+          "tag": "After"
+        }
+      ]
+    },
+    {
+      "id": "tubbath",
+      "title": "A tub and shower near Belzoni",
+      "place": "near Belzoni",
+      "year": 2025,
+      "note": "From a dated tub and shower to new tile and fixtures.",
+      "drive_folder": "Aug 4 - Nov 18, 2025",
+      "verified": "all photos within 150 m of the first, one Drive folder",
+      "compare": [
+        "images/tubbath-1-before.jpg",
+        "images/tubbath-4-after.jpg"
+      ],
+      "slides": [
+        {
+          "site": "images/tubbath-1-before.jpg",
+          "tag": "Before"
+        },
+        {
+          "site": "images/tubbath-2-framed.jpg",
+          "tag": "Walls framed"
+        },
+        {
+          "site": "images/tubbath-3-tile.jpg",
+          "tag": "Tile going up"
+        },
+        {
+          "site": "images/tubbath-4-after.jpg",
           "tag": "After"
         },
         {
-          "site": "images/build-3-after.jpg",
-          "tag": "Another angle"
+          "site": "images/tubbath-5-fixtures.jpg",
+          "tag": "Finished fixtures"
         }
       ]
     }

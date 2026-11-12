@@ -145,4 +145,57 @@
       if (Math.abs(dx) > 50) show(at + (dx < 0 ? 1 : -1));
     });
   }
+
+  // Before and after reveal. Each card sweeps from "before" to "after" once, when it
+  // scrolls into view. After that, drag the handle (or use the arrow keys) to compare.
+  var cards = [].slice.call(document.querySelectorAll(".cmp"));
+  var still = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  cards.forEach(function (card) {
+    var stage = card.querySelector(".cmp-stage");
+    var handle = card.querySelector(".cmp-handle");
+    var pos = 50, raf = 0, dragging = false;
+    function set(p) {
+      pos = Math.max(0, Math.min(100, p));
+      card.style.setProperty("--pos", pos + "%");
+      handle.setAttribute("aria-valuenow", String(Math.round(100 - pos)));
+    }
+    function stop() { if (raf) { cancelAnimationFrame(raf); raf = 0; } }
+    function sweep(from, to, ms, delay) {
+      var t0 = null;
+      function ease(t) { return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; }
+      function frame(ts) {
+        if (t0 === null) t0 = ts + delay;
+        var t = Math.max(0, Math.min(1, (ts - t0) / ms));
+        set(from + (to - from) * ease(t));
+        if (t < 1) raf = requestAnimationFrame(frame); else raf = 0;
+      }
+      raf = requestAnimationFrame(frame);
+    }
+    function at(x) { var r = stage.getBoundingClientRect(); return ((x - r.left) / r.width) * 100; }
+    handle.addEventListener("pointerdown", function (e) {
+      stop(); dragging = true; card.dataset.played = "1";
+      handle.setPointerCapture(e.pointerId); set(at(e.clientX)); e.preventDefault();
+    });
+    handle.addEventListener("pointermove", function (e) { if (dragging) set(at(e.clientX)); });
+    function up() { dragging = false; }
+    handle.addEventListener("pointerup", up); handle.addEventListener("pointercancel", up);
+    handle.addEventListener("keydown", function (e) {
+      var k = e.key, d = 0;
+      if (k === "ArrowLeft") d = -5; else if (k === "ArrowRight") d = 5;
+      else if (k === "Home") { stop(); card.dataset.played = "1"; set(100); e.preventDefault(); return; }
+      else if (k === "End") { stop(); card.dataset.played = "1"; set(0); e.preventDefault(); return; }
+      if (d) { stop(); card.dataset.played = "1"; set(pos + d); e.preventDefault(); }
+    });
+    if (still || !("IntersectionObserver" in window)) { set(50); return; }
+    set(100);
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting && !card.dataset.played) {
+          card.dataset.played = "1"; io.disconnect();
+          sweep(100, 22, 1700, 350);
+        }
+      });
+    }, { threshold: 0.6 });
+    io.observe(card);
+  });
 })();

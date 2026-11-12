@@ -5,8 +5,8 @@ Updated 2026-11-10 from the Website Brief (2026-11-07).
 ## Blocks launch
 
 1. **AKM customer number.** Left blank on purpose. Every Call and Text button is hidden until it's set. To add it, type it once at the top of `site/site.js` (`var PHONE = "";`), then copy the site into previews again. Pick a 662 number: that's the Belzoni area code.
-2. **Photos.** 16 real job photos in 4 before-and-after strips plus 4 more finished jobs are on the site now, from the Drive folder "Web project - AKM" (375 photos, 177 videos). About 1 in 4 photos was opened to find the jobs: a master bath in Moorhead (2026), a shower in Inverness (2026), a custom kitchen near Belzoni (2025) and a kitchen near Belzoni (2024). See `photo-index.md` for which Drive folder each job comes from. Every caption is job type, town and year, no dates. Towns come from each photo's GPS, which is stripped from the copies on the site.
-   **No roofing photos found.** None of the 96 photos opened show a roof. Roofing, new builds and other remodels are off the site until there are photos for them. Their text is saved under `paused` in `copy.json`, and `on_site` is false in `brief.json`.
+2. **Photos.** 27 real job photos are on the site now, in 5 jobs plus 3 more finished kitchens and bathrooms, from the Drive folder "Web project - AKM" (375 photos, 177 videos; about half opened). The jobs: a bathroom in Moorhead (2026), a shower in Inverness (2026), a kitchen with a copper hood near Belzoni (2025), a kitchen with a granite island near Belzoni (2024) and a tub and shower near Belzoni (2025). Each is a before-to-after strip, and the home page has a drag-to-reveal scroller for all five. See `photo-index.md` for the Drive folder behind every photo.
+   **No roofing photos found** in the 179 opened. Roofing, new builds and other remodels stay off the site until there are photos for them (text saved under `paused` in `copy.json`). About 200 photos are still unopened, so a roofing job could be in there.
 3. **Logo.** Joe is booking the designer. Until then the header uses a typed "AKM / Real Estate and Construction" wordmark and the footer a round AKM seal.
 4. **Domain.** Jay picks it and registers it in AKM's own account with two-factor sign-in.
 
@@ -48,3 +48,7 @@ Design: unchanged from October. Magnolia cream, Delta green, aged brass, Libre C
 Every job is its own sideways strip: Before, then the steps, then After. Tap a photo for the full-size viewer. Left and right in the viewer stay inside that job, so a before can never sit next to another job's after. Each job's photos were checked to share one Drive folder and one address.
 
 **The Custom kitchen near Belzoni after photo has a worker in it** (IMG_3395, his back and cap, face not visible). Jay should be fine with it, or we swap it. The matching hood photo without a person (IMG_3400) has a location tag 2.4 km from the before, so it stays out until Jay confirms it's the same kitchen.
+
+## Pricing
+
+The bathroom price range ($6,000 to $8,000 for a 5 by 8) is off the site. The kitchen range ($15,000 to $25,000) is still on the Kitchens card on the home page and on the Services page. Joe asked only about the bathroom one. If the kitchen price should go too, it is one line in `copy.json`.

@@ -79,3 +79,9 @@ Captions come from `brief.json` photos: type of job, town (from the photo's GPS)
 Roofing, new builds, other remodels and the commercial kitchen story are off the site until Jay sends photos of them (Joe's call: no sections without images). Everything about them is saved in `copy.json` under `paused`. The brief's FORTIFIED claim is paused with them.
 
 Before and after captions: "Before" and "After" plus a short note. The Inverness note says the shower is "waterproofed, before tile." That is what the photo shows. Jay should confirm every shower gets that layer before the site says so in words.
+
+## November 13 changes
+
+- Bathroom pricing removed (services page, home teaser, price note). The kitchen price stays.
+- Home page now opens with a "See the difference" before-and-after scroller right after the hero. Each card is a drag-to-reveal slider. It sweeps from before to after once as it scrolls into view, then the visitor can drag. It stays still for anyone with reduced motion turned on.
+- Job titles describe what is in the photos ("Kitchen with a copper hood", "Kitchen with a granite island"), so two kitchens near Belzoni can't be confused. "Master bath" became "A bathroom in Moorhead" because nothing confirms it is the master.
