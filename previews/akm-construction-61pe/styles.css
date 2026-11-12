@@ -749,3 +749,13 @@ p { margin: 0 0 1em; max-width: 62ch; }
 .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 2rem; max-width: 760px; }
 @media (min-width: 900px) { .pair { gap: 2rem; } }
 .on-green .lede { max-width: 62ch; }
+
+/* Before and after pairs */
+.pairs { display: grid; gap: 3.5rem; margin-top: 2rem; }
+.pair-block h3 { margin-bottom: 0.15rem; color: var(--green); }
+.pair-meta { color: var(--muted); margin-bottom: 1.25rem; font-size: 0.95rem; }
+.pair-block .pair { max-width: none; margin-top: 0; gap: 0.9rem; }
+.pair-block .arch { aspect-ratio: 3 / 4; }
+.pair-block .arch img { height: 100%; }
+@media (min-width: 900px) { .pairs { grid-template-columns: 1fr 1fr; gap: 4rem 3rem; } .pair-block .pair { gap: 1.25rem; } }
+.gallery .arch { aspect-ratio: 3 / 4; }

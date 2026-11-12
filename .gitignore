@@ -5,3 +5,4 @@ node_modules/
 
 # Original client photos keep GPS and can show customer names. They live in Drive, not in git.
 clients/*/raw/drive/
+clients/*/raw/drive-all/

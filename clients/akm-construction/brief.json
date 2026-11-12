@@ -47,20 +47,26 @@
       "name": "Roofing",
       "priority": 3,
       "facts": "Own crew. Full replacements and repairs in shingle, metal and TPO. Handles storm insurance claims. Completed FORTIFIED roofing projects across the Mississippi Delta.",
-      "price": "Quoted per job"
+      "price": "Quoted per job",
+      "on_site": false,
+      "off_site_reason": "No photos yet. Turn back on when Jay sends them."
     },
     {
       "name": "New builds",
       "priority": 4,
       "facts": "Estimate from blueprints or other project documents.",
       "price": "About $250,000 for 2,000 to 2,500 sq ft",
-      "price_moves": "Location"
+      "price_moves": "Location",
+      "on_site": false,
+      "off_site_reason": "No photos yet. Turn back on when Jay sends them."
     },
     {
       "name": "General remodeling",
       "priority": 5,
       "facts": "Full remodels only. No handyman or small-job work.",
-      "price": "Quoted per job"
+      "price": "Quoted per job",
+      "on_site": false,
+      "off_site_reason": "No photos yet. Turn back on when Jay sends them."
     }
   ],
   "service_area": {
@@ -88,111 +94,130 @@
   },
   "photos": [
     {
-      "file": "raw/drive/2026_Moorhead/IMG_9660.JPEG",
-      "site": "images/bathroom-moorhead-tub-chandelier.jpg",
-      "shows": "Finished bathroom with a freestanding tub, a navy cabinet and a round chandelier",
-      "alt": "Finished bathroom with a freestanding tub, a navy cabinet and a round chandelier",
-      "caption": "Bathroom remodel, Moorhead, 2026",
+      "file": "raw/drive-all/2026_Moorhead/IMG_8676.JPG",
+      "site": "images/bath-moorhead-before.jpg",
+      "alt": "Dated bathroom with a corner tub, wallpaper and a cream vanity",
+      "label": "Before",
+      "w": 1000,
+      "h": 1333,
+      "usable": true,
+      "use_on": []
+    },
+    {
+      "file": "raw/drive-all/2026_Moorhead/IMG_9652.JPG",
+      "site": "images/bath-moorhead-after.jpg",
+      "alt": "The same bathroom rebuilt with a freestanding tub, marble-look floor and a round chandelier",
+      "label": "After",
+      "w": 1000,
+      "h": 1333,
       "usable": true,
       "use_on": [
         "hero",
-        "work"
-      ]
-    },
-    {
-      "file": "raw/drive/2026_Moorhead/IMG_9658.JPEG",
-      "site": "images/bathroom-moorhead-tub.jpg",
-      "shows": "Freestanding tub on marble-look tile under a navy wall cabinet",
-      "alt": "Freestanding tub on marble-look tile under a navy wall cabinet",
-      "caption": "Bathroom remodel, Moorhead, 2026",
-      "usable": true,
-      "use_on": [
         "card:bathrooms",
         "service:bathrooms",
-        "home-gallery"
-      ]
-    },
-    {
-      "file": "raw/drive/2026_Moorhead/IMG_9659.JPEG",
-      "site": "images/bathroom-moorhead-wide.jpg",
-      "shows": "Freestanding tub with a floor-mounted faucet and tile wainscot",
-      "alt": "Freestanding tub with a floor-mounted faucet and tile wainscot",
-      "caption": "Bathroom remodel, Moorhead, 2026",
-      "usable": true,
-      "use_on": [
+        "home-gallery",
         "about"
       ]
     },
     {
-      "file": "raw/drive/2026_Moorhead/IMG_9655.JPEG",
-      "site": "images/bathroom-moorhead-detail.jpg",
-      "shows": "Navy cabinet over stacked subway tile behind the tub",
-      "alt": "Navy cabinet over stacked subway tile behind the tub",
-      "caption": "Bathroom remodel, Moorhead, 2026",
+      "file": "raw/drive-all/2026_Inverness/IMG_7200.JPG",
+      "site": "images/shower-inverness-before.jpg",
+      "alt": "Shower pan and walls sealed with waterproof board before any tile",
+      "label": "Waterproofed, before tile",
+      "w": 1000,
+      "h": 1333,
+      "usable": true,
+      "use_on": []
+    },
+    {
+      "file": "raw/drive-all/2026_Inverness/IMG_7517.JPG",
+      "site": "images/shower-inverness-after.jpg",
+      "alt": "Finished tiled shower with a bench, a niche and a hex mosaic floor",
+      "label": "Finished",
+      "w": 1000,
+      "h": 1333,
       "usable": true,
       "use_on": [
-        "work"
+        "home-gallery"
       ]
     },
     {
-      "file": "raw/drive/2026_Inverness/IMG_7518.JPG",
-      "site": "images/shower-inverness-finished.jpg",
-      "shows": "Finished walk-in shower with a tiled bench, a niche and a hex mosaic floor",
-      "alt": "Finished walk-in shower with a tiled bench, a niche and a hex mosaic floor",
-      "caption": "Shower remodel, Inverness, 2026",
+      "file": "raw/drive-all/2024_25/IMG_1987.JPG",
+      "site": "images/kitchen-custom-before.jpg",
+      "alt": "Bare brick wall and a cabinet box on an unfinished floor",
+      "label": "Bare brick wall",
+      "w": 1000,
+      "h": 750,
       "usable": true,
-      "use_on": [
-        "card:showers",
-        "home-gallery",
-        "work",
-        "after"
-      ]
+      "use_on": []
     },
     {
-      "file": "raw/drive/2026_Inverness/IMG_7199.JPG",
-      "site": "images/shower-inverness-waterproofed.jpg",
-      "shows": "Shower framed and fully waterproofed before any tile goes up",
-      "alt": "Shower framed and fully waterproofed before any tile goes up",
-      "caption": "Shower remodel, Inverness, 2026",
-      "usable": true,
-      "use_on": [
-        "before"
-      ]
-    },
-    {
-      "file": "raw/drive/2026_Inverness/IMG_7298.JPG",
-      "site": "images/shower-inverness-tile.jpg",
-      "shows": "Wall tile going up over the waterproofing, with the mosaic floor set",
-      "alt": "Wall tile going up over the waterproofing, with the mosaic floor set",
-      "caption": "Shower remodel, Inverness, 2026",
-      "usable": true,
-      "use_on": [
-        "work"
-      ]
-    },
-    {
-      "file": "raw/drive/2024_near-Belzoni/IMG_2671.JPG",
-      "site": "images/kitchen-belzoni-cabinets.jpg",
-      "shows": "New cabinets with glass doors, a brick wall and a granite counter",
-      "alt": "New cabinets with glass doors, a brick wall and a granite counter",
-      "caption": "Cabinet and counter install, near Belzoni, 2024",
+      "file": "raw/drive-all/2024_25/IMG_3400.JPG",
+      "site": "images/kitchen-custom-after.jpg",
+      "alt": "Same brick wall finished with stained cabinets and a copper range hood",
+      "label": "Finished with a copper hood",
+      "w": 1000,
+      "h": 1333,
       "usable": true,
       "use_on": [
         "card:kitchens",
         "service:kitchens",
-        "home-gallery",
+        "home-gallery"
+      ]
+    },
+    {
+      "file": "raw/drive-all/2024_JulOct/IMG_9835.JPG",
+      "site": "images/kitchen-build-before.jpg",
+      "alt": "Base cabinets set against bare drywall and a plywood floor",
+      "label": "Cabinets set, before finish",
+      "w": 1000,
+      "h": 1333,
+      "usable": true,
+      "use_on": []
+    },
+    {
+      "file": "raw/drive-all/2024_JulOct/IMG_1805.JPG",
+      "site": "images/kitchen-build-after.jpg",
+      "alt": "Finished kitchen with white cabinets, granite, a stone backsplash and a steel hood",
+      "label": "Finished",
+      "w": 1000,
+      "h": 1333,
+      "usable": true,
+      "use_on": []
+    },
+    {
+      "file": "raw/drive-all/2024_JulOct/IMG_1797.JPG",
+      "site": "images/kitchen-build-appliances.jpg",
+      "alt": "White cabinets around a built-in oven and microwave",
+      "label": "Kitchen build, near Belzoni, 2024",
+      "w": 1000,
+      "h": 1333,
+      "usable": true,
+      "use_on": [
         "work"
       ]
     },
     {
-      "file": "raw/drive/2024_near-Belzoni/IMG_2582.JPG",
-      "site": "images/kitchen-belzoni-cabinet-build.jpg",
-      "shows": "Cabinet boxes being built in place on a new tile floor",
-      "alt": "Cabinet boxes being built in place on a new tile floor",
-      "caption": "Cabinet build, near Belzoni, 2024",
+      "file": "raw/drive-all/2025_AugNov/IMG_6574.JPG",
+      "site": "images/shower-glass-finished.jpg",
+      "alt": "Finished shower with a glass door, a niche, a bench and a patterned floor",
+      "label": "Shower remodel, near Belzoni, 2025",
+      "w": 1000,
+      "h": 1333,
       "usable": true,
       "use_on": [
-        "service:remodeling",
+        "work"
+      ]
+    },
+    {
+      "file": "raw/drive-all/2025_AugNov/IMG_6774.JPG",
+      "site": "images/bath-tub-surround.jpg",
+      "alt": "New soaker tub with a floor-to-ceiling tile surround",
+      "label": "Bathroom remodel, near Belzoni, 2025",
+      "w": 1000,
+      "h": 1333,
+      "usable": true,
+      "use_on": [
         "work"
       ]
     }
@@ -302,9 +327,8 @@
     "form service that accepts file uploads (blueprints)",
     "business.hours",
     "about: how Jay got started, what AKM stands for",
-    "photos: roofing jobs (none yet)",
-    "photos: new builds (none yet)",
-    "photos: before shots of a finished room"
+    "photos: roofing jobs (none found in the 96 opened)",
+    "photos: confirm whether the 2024 kitchen build near Belzoni was a new house (then New builds can return)"
   ],
   "preview_path": "akm-construction-61pe",
   "mode_note": "Jay is a paying client (Website Brief, 2026-11-07). The build stays in preview mode (banner, noindex, form to Joe) until photos, logo and the AKM number are in. Switch mode to client at launch.",
@@ -373,5 +397,45 @@
       "why": "Same panels, emoji text overlay baked in."
     }
   ],
-  "photos_source": "Google Drive folder 'Web project - AKM' (2026-11-12). Folders named by year and town from each photo's GPS. Years for the 2024 and Inverness folders are estimated from the photo numbering. Two .MOV videos (2024) not downloaded."
+  "photos_source": "Google Drive folder 'Web project - AKM'. 375 photos and 177 videos. About 1 in 4 photos opened (96) to find jobs. Originals in raw/drive-all/ (not in git). Photos sorted by EXIF time, not file name, because file numbers wrap past 9999.",
+  "pairs": [
+    {
+      "id": "moorhead-bath",
+      "title": "A master bath in Moorhead",
+      "place": "Moorhead",
+      "year": 2026,
+      "before": "images/bath-moorhead-before.jpg",
+      "after": "images/bath-moorhead-after.jpg"
+    },
+    {
+      "id": "inverness-shower",
+      "title": "A shower in Inverness",
+      "place": "Inverness",
+      "year": 2026,
+      "before": "images/shower-inverness-before.jpg",
+      "after": "images/shower-inverness-after.jpg"
+    },
+    {
+      "id": "kitchen-custom",
+      "title": "A custom kitchen near Belzoni",
+      "place": "near Belzoni",
+      "year": 2025,
+      "before": "images/kitchen-custom-before.jpg",
+      "after": "images/kitchen-custom-after.jpg"
+    },
+    {
+      "id": "kitchen-build",
+      "title": "A kitchen near Belzoni",
+      "place": "near Belzoni",
+      "year": 2024,
+      "before": "images/kitchen-build-before.jpg",
+      "after": "images/kitchen-build-after.jpg"
+    }
+  ],
+  "sections_hidden": [
+    "roofing",
+    "new builds",
+    "other remodels",
+    "commercial kitchen story"
+  ]
 }

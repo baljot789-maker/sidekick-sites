@@ -5,7 +5,8 @@ Updated 2026-11-10 from the Website Brief (2026-11-07).
 ## Blocks launch
 
 1. **AKM customer number.** Left blank on purpose. Every Call and Text button is hidden until it's set. To add it, type it once at the top of `site/site.js` (`var PHONE = "";`), then copy the site into previews again. Pick a 662 number: that's the Belzoni area code.
-2. **Photos.** 9 real job photos are on the site now (from the Drive folder "Web project - AKM"): the Moorhead bathroom, the Inverness shower start to finish, and the cabinet job near Belzoni. Still empty: roofing (no photos at all), new builds (none) and the commercial kitchen story. The site claims roofing and new builds with zero pictures of either. Get 2 or 3 of each from Jay. Every photo is captioned with the type of job, the town and the year, no dates. Towns come from each photo's GPS, which is stripped from the copies on the site so customers' home locations aren't published.
+2. **Photos.** 11 real job photos and 4 before and after pairs are on the site now, from the Drive folder "Web project - AKM" (375 photos, 177 videos). About 1 in 4 photos was opened to find the jobs: a master bath in Moorhead (2026), a shower in Inverness (2026), a custom kitchen near Belzoni (2025) and a kitchen build near Belzoni (2024). Every caption is job type, town and year, no dates. Towns come from each photo's GPS, which is stripped from the copies on the site.
+   **No roofing photos found.** None of the 96 photos opened show a roof. Roofing, new builds and other remodels are off the site until there are photos for them. Their text is saved under `paused` in `copy.json`, and `on_site` is false in `brief.json`.
 3. **Logo.** Joe is booking the designer. Until then the header uses a typed "AKM / Real Estate and Construction" wordmark and the footer a round AKM seal.
 4. **Domain.** Jay picks it and registers it in AKM's own account with two-factor sign-in.
 
@@ -19,6 +20,12 @@ Updated 2026-11-10 from the Website Brief (2026-11-07).
 ## Form
 
 The quote form texts Joe (614-623-8379) until the AKM number exists, per the preview rule. It opens the visitor's texting app with their details typed in, and tells them to attach photos, or blueprints for a new build, before sending. That covers the brief's blueprint upload for now with no outside service. A web form with file uploads (the brief's "From Joe" item) can replace it later. On a desktop computer, the text link may not open anything, so desktop visitors need the phone number once it exists.
+
+## Questions for Jay
+
+- Is there a folder of roofing jobs? The Drive folders here are only interior work and electrical.
+- Was the 2024 kitchen build near Belzoni (IMG_9835 to IMG_1805) a new house? If yes, New builds can come back with those photos.
+- Is the Moorhead master bath the job he is proudest of? It leads the home page.
 
 ## Photos to ask about
 

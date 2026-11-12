@@ -3,15 +3,15 @@
     "banner": "Preview built for AKM Real Estate and Construction by ScaleUp Sidekicks. Not live yet.",
     "header_cta": "Free estimate",
     "bar_cta": "Get a free estimate",
-    "footer_line": "Bathroom and kitchen remodels, roofing and new builds.",
+    "footer_line": "Bathroom and kitchen remodels.",
     "area_short": "Serving the Mississippi Delta, the Jackson area and Oxford",
     "closing_heading": "Get a clear plan and a free estimate",
     "closing_cta": "Get a free estimate"
   },
   "home": {
-    "meta_title": "Remodeling in the Delta, Jackson and Oxford, MS | AKM",
-    "meta_description": "Bathroom and kitchen remodels, roofing and new builds in the Mississippi Delta, Madison, Ridgeland, Jackson and Oxford. Free estimates.",
-    "hero_eyebrow": "Full remodels, roofing and new builds",
+    "meta_title": "Bathroom and Kitchen Remodels, Delta and Jackson | AKM",
+    "meta_description": "Full bathroom and kitchen remodels in the Mississippi Delta, Madison, Ridgeland, Jackson and Oxford. Clear plan and labor cost first. Free estimates.",
+    "hero_eyebrow": "Full bathroom and kitchen remodels",
     "hero_headline": "Turn your house into your forever home",
     "hero_headline_emphasis": "your forever home",
     "hero_sub": "We remodel bathrooms and kitchens across the Mississippi Delta, the Jackson area and Oxford. You get a clear plan and the labor cost up front, and you only pay as each stage is done.",
@@ -26,8 +26,7 @@
     "guide_empathy": "Trusting someone with tens of thousands of dollars and your home is a big step. We earn that trust in ways you can check.",
     "guide_authority": [
       "More than 10 years in the trade",
-      "Our own roofing crew",
-      "FORTIFIED roofing projects across the Delta",
+      "Labor cost shown up front",
       "Partner plumbers, electricians and concrete crews"
     ],
     "money_heading": "Your money goes to finished work",
@@ -50,36 +49,28 @@
       {
         "name": "Kitchens",
         "line": "Full remodels with new cabinets, usually $15,000 to $25,000 before granite."
-      },
-      {
-        "name": "Roofing",
-        "line": "Replacements and repairs by our own crew, with help on storm insurance claims."
-      },
-      {
-        "name": "New builds",
-        "line": "Houses from about $250,000 for 2,000 to 2,500 square feet."
       }
     ],
     "plan_heading": "How it works",
     "plan_steps": [
-      "Ask for a free estimate. Send a few photos of the space, or your plans for a new build.",
+      "Ask for a free estimate. Send a few photos of the space.",
       "Get a clear plan with the labor cost spelled out before any work starts.",
       "Pay as each stage is finished, until the job is done."
     ],
     "success_heading": "A home you'll want to stay in",
-    "success": "A bathroom you're glad to show company. A kitchen that works for the way you cook. A roof that holds through the next storm. And a final bill that matches the plan you agreed to.",
+    "success": "A bathroom you're glad to show company. A kitchen that works for the way you cook. And a final bill that matches the plan you agreed to.",
     "stakes": "Pick the wrong contractor and you can end up paying twice: once for the job, and again to fix it.",
-    "work_heading": "Recent work",
-    "work_link": "See more of our work",
+    "work_heading": "Before and after",
+    "work_link": "See all our work",
     "quote_heading": "Get a free estimate",
     "quote_sub": "Fill this in and your phone opens a text with your details typed in. Add a few photos of the space before you send it.",
     "area_line": "Serving the Mississippi Delta, the Jackson area and Oxford."
   },
   "services": {
-    "meta_title": "Remodeling, Roofing and New Builds in Mississippi | AKM",
-    "meta_description": "Bathroom and kitchen remodels, roofing and new builds in the Delta, Madison, Ridgeland, Jackson and Oxford, with typical prices up front.",
-    "intro_heading": "Remodeling, roofing and new builds",
-    "intro": "Full projects across the Delta, the Jackson area and Oxford, with typical prices you can see before you ask. We don't take handyman jobs or small repairs.",
+    "meta_title": "Bathroom and Kitchen Remodels in Mississippi | AKM",
+    "meta_description": "Full bathroom and kitchen remodels in the Delta, Madison, Ridgeland, Jackson and Oxford, with typical prices up front. Free estimates from AKM.",
+    "intro_heading": "Bathroom and kitchen remodels",
+    "intro": "Full remodels across the Delta, the Jackson area and Oxford, with typical prices you can see before you ask. We don't take handyman jobs or small repairs.",
     "blocks": [
       {
         "id": "bathrooms",
@@ -104,7 +95,112 @@
         "price": "$15,000 to $25,000, cabinets included. Granite is extra.",
         "price_note": "An island or the cabinet material you pick changes the price.",
         "cta": "Get a free kitchen estimate"
+      }
+    ],
+    "materials_heading": "Materials at cost",
+    "materials": "We buy the core materials and bill them at what we paid. You're welcome to buy your own fixtures and decorative pieces.",
+    "partners_heading": "One call for the whole project",
+    "partners": "We work with partner contractors for plumbing, electrical and concrete, so one call can cover the whole job."
+  },
+  "work": {
+    "meta_title": "Before and After Remodel Photos, Mississippi | AKM",
+    "meta_description": "Before and after photos of bathroom and kitchen remodels from AKM Real Estate and Construction in Moorhead, Inverness and near Belzoni.",
+    "intro_heading": "Before and after",
+    "intro": "Real AKM jobs, from the day work started to the finished room.",
+    "captions": [],
+    "pairs_note": "Each pair is the same room, photographed on the job.",
+    "more_heading": "More finished work"
+  },
+  "about": {
+    "meta_title": "About AKM Real Estate and Construction | Belzoni, MS",
+    "meta_description": "AKM Real Estate and Construction remodels bathrooms and kitchens across the Mississippi Delta, the Jackson area and Oxford. Free estimates.",
+    "heading": "About AKM",
+    "lead": "Most homeowners worry a remodel will run over budget or never get finished. AKM gives you the plan and the labor cost up front, and you pay only as each stage is done.",
+    "stat": "10+",
+    "stat_label": "years in the trade",
+    "body": [
+      "AKM Real Estate and Construction is a remodeling and building company based in Belzoni, Mississippi. We work across the Delta, the Jackson area and Oxford.",
+      "We take on full bathroom and kitchen remodels. We don't do handyman work or small repairs.",
+      "Partner contractors cover plumbing, electrical and concrete, so one call can cover the whole project."
+    ],
+    "how_heading": "How we work",
+    "how": [
+      {
+        "title": "A clear plan first",
+        "body": "Before work starts, you know what we'll do, what's possible and why, and what the labor costs."
       },
+      {
+        "title": "Pay as each stage is done",
+        "body": "We're paid when each part of the job is finished, never for work you can't see."
+      },
+      {
+        "title": "Materials at cost",
+        "body": "Buy materials yourself and have them delivered, or we pick them up and bill them at what we paid."
+      },
+      {
+        "title": "Built to last",
+        "body": "We'd rather tell you a bigger spend is needed, and why, than build something that won't hold up."
+      }
+    ]
+  },
+  "contact": {
+    "meta_title": "Free Remodeling Estimates, Belzoni MS | AKM",
+    "meta_description": "Free estimates from AKM Real Estate and Construction for bathroom and kitchen remodels in the Delta, Madison, Ridgeland, Jackson and Oxford.",
+    "heading": "Get a free estimate",
+    "intro": "Every job starts with a free estimate. Send a few photos of the space and we'll lay out the next step.",
+    "facts": [
+      {
+        "label": "Work",
+        "value": "Bathroom and kitchen remodels"
+      },
+      {
+        "label": "Estimates",
+        "value": "Free"
+      }
+    ]
+  },
+  "form": {
+    "project_label": "What's the project?",
+    "projects": [
+      "Bathroom remodel",
+      "Kitchen remodel",
+      "Other remodel"
+    ],
+    "need_label": "Tell us about it",
+    "need_hint": "Which room, and what you'd like done",
+    "photo_tip": "When your texts open, add a few photos of the space before you hit send.",
+    "button": "Send by text"
+  },
+  "areas": {
+    "heading": "Where we work",
+    "groups": [
+      {
+        "name": "The Mississippi Delta",
+        "towns": "Belzoni, Yazoo City, Greenwood and towns across the Delta"
+      },
+      {
+        "name": "The Jackson area",
+        "towns": "Jackson, Madison, Ridgeland, Flowood and Brandon"
+      },
+      {
+        "name": "Oxford",
+        "towns": "Oxford and Lafayette County"
+      }
+    ]
+  },
+  "paused": {
+    "note": "Roofing, new builds and other remodels have no photos yet. Their text is kept here. To bring them back, move it into the live fields and set 'on_site' true in brief.json.",
+    "home_teaser": [
+      {
+        "name": "Roofing",
+        "line": "Replacements and repairs by our own crew, with help on storm insurance claims."
+      },
+      {
+        "name": "New builds",
+        "line": "Houses from about $250,000 for 2,000 to 2,500 square feet."
+      }
+    ],
+    "service_blocks": [
       {
         "id": "roofing",
         "name": "Roofing",
@@ -137,105 +233,22 @@
         "cta": "Get a free estimate"
       }
     ],
-    "materials_heading": "Materials at cost",
-    "materials": "We buy the core materials and bill them at what we paid. You're welcome to buy your own fixtures and decorative pieces.",
-    "partners_heading": "One call for the whole project",
-    "partners": "We work with partner contractors for plumbing, electrical and concrete, so one call can cover the whole job."
-  },
-  "work": {
-    "meta_title": "Remodeling and Roofing Photos, Mississippi | AKM",
-    "meta_description": "Finished bathrooms, kitchens and roofs from AKM Real Estate and Construction across the Mississippi Delta, the Jackson area and Oxford.",
-    "intro_heading": "Recent work",
-    "intro": "Finished bathrooms, showers and cabinets from AKM jobs in the Delta.",
-    "story_heading": "A commercial kitchen, rebuilt",
-    "story": [
-      "The walls were coated in grease and the inside was wrecked. We refitted the kitchen in new stainless steel and made the space bigger.",
-      "We also did the roofing, HVAC and electrical, which raised the property's value. Most of our work is in homes. This job shows the range we take on."
+    "chips": [
+      "Our own roofing crew",
+      "FORTIFIED roofing projects across the Delta"
     ],
-    "captions": [],
-    "before_after_heading": "A shower in Inverness, start to finish",
-    "before_label": "Sealed and waterproofed, before tile",
-    "after_label": "Finished",
-    "before_after_note": "Every shower gets a full waterproof layer before the first tile goes up. You never see it once the job is done, and it's what keeps water out of your walls."
-  },
-  "about": {
-    "meta_title": "About AKM Real Estate and Construction | Belzoni, MS",
-    "meta_description": "AKM Real Estate and Construction remodels and builds homes across the Mississippi Delta, the Jackson area and Oxford. Free estimates.",
-    "heading": "About AKM",
-    "lead": "Most homeowners worry a remodel will run over budget or never get finished. AKM gives you the plan and the labor cost up front, and you pay only as each stage is done.",
-    "stat": "10+",
-    "stat_label": "years in the trade",
-    "body": [
-      "AKM Real Estate and Construction is a remodeling and building company based in Belzoni, Mississippi. We work across the Delta, the Jackson area and Oxford.",
-      "We take on full bathroom and kitchen remodels, roofing, new builds and other large remodels. We don't do handyman work or small repairs.",
-      "Our own crew handles roofing, and we've completed FORTIFIED roofing projects across the Delta. Partner contractors cover plumbing, electrical and concrete, so one call can cover the whole project."
-    ],
-    "how_heading": "How we work",
-    "how": [
-      {
-        "title": "A clear plan first",
-        "body": "Before work starts, you know what we'll do, what's possible and why, and what the labor costs."
-      },
-      {
-        "title": "Pay as each stage is done",
-        "body": "We're paid when each part of the job is finished, never for work you can't see."
-      },
-      {
-        "title": "Materials at cost",
-        "body": "Buy materials yourself and have them delivered, or we pick them up and bill them at what we paid."
-      },
-      {
-        "title": "Built to last",
-        "body": "We'd rather tell you a bigger spend is needed, and why, than build something that won't hold up."
-      }
-    ]
-  },
-  "contact": {
-    "meta_title": "Free Remodeling Estimates, Belzoni MS | AKM",
-    "meta_description": "Free estimates from AKM Real Estate and Construction for remodels, roofs and new builds in the Delta, Madison, Ridgeland, Jackson and Oxford.",
-    "heading": "Get a free estimate",
-    "intro": "Every job starts with a free estimate. Send a few photos of the space, or your blueprints for a new build, and we'll lay out the next step.",
-    "facts": [
-      {
-        "label": "Work",
-        "value": "Bathroom and kitchen remodels, roofing and new builds"
-      },
-      {
-        "label": "Estimates",
-        "value": "Free"
-      }
-    ]
-  },
-  "form": {
-    "project_label": "What's the project?",
-    "projects": [
-      "Bathroom remodel",
-      "Kitchen remodel",
+    "work_story": {
+      "heading": "A commercial kitchen, rebuilt",
+      "story": [
+        "The walls were coated in grease and the inside was wrecked. We refitted the kitchen in new stainless steel and made the space bigger.",
+        "We also did the roofing, HVAC and electrical, which raised the property's value. Most of our work is in homes. This job shows the range we take on."
+      ]
+    },
+    "about_roofing": "Our own crew handles roofing, and we've completed FORTIFIED roofing projects across the Delta.",
+    "form_projects": [
       "Roofing",
-      "New build",
-      "Other remodel"
+      "New build"
     ],
-    "need_label": "Tell us about it",
-    "need_hint": "Which room, and what you'd like done",
-    "photo_tip": "When your texts open, add a few photos of the space before you hit send.",
-    "plans_tip": "When your texts open, attach your blueprints or plans before you hit send.",
-    "button": "Send by text"
-  },
-  "areas": {
-    "heading": "Where we work",
-    "groups": [
-      {
-        "name": "The Mississippi Delta",
-        "towns": "Belzoni, Yazoo City, Greenwood and towns across the Delta"
-      },
-      {
-        "name": "The Jackson area",
-        "towns": "Jackson, Madison, Ridgeland, Flowood and Brandon"
-      },
-      {
-        "name": "Oxford",
-        "towns": "Oxford and Lafayette County"
-      }
-    ]
+    "plans_tip": "When your texts open, attach your blueprints or plans before you hit send."
   }
 }

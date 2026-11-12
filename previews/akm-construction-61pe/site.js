@@ -41,9 +41,7 @@
     var tip = form.querySelector("[data-tip]");
     function updateTip() {
       if (!tip) return;
-      tip.textContent = f.project.value === "New build"
-        ? tip.getAttribute("data-plans-tip")
-        : tip.getAttribute("data-photo-tip");
+      tip.textContent = tip.getAttribute("data-photo-tip");
     }
     if (wanted) {
       for (var i = 0; i < f.project.options.length; i++) {
