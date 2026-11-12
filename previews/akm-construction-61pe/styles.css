@@ -739,3 +739,13 @@ p { margin: 0 0 1em; max-width: 62ch; }
 @media (min-width: 700px) { .points-stack { grid-template-columns: 1fr; } }
 .points-title { color: var(--green); margin: 0; }
 .problem-grid h2 { margin: 0; }
+
+/* Job photos with a caption: type of job, town, year */
+.shot { margin: 0; display: grid; gap: 0.6rem; min-width: 0; }
+.shot figcaption { font-size: 0.82rem; color: var(--muted); line-height: 1.35; }
+.on-green .shot figcaption { color: var(--sage); }
+.gallery-3 .shot figcaption { font-size: 0.72rem; }
+@media (min-width: 900px) { .gallery-3 .shot figcaption { font-size: 0.85rem; } }
+.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 2rem; max-width: 760px; }
+@media (min-width: 900px) { .pair { gap: 2rem; } }
+.on-green .lede { max-width: 62ch; }

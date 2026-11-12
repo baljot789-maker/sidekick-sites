@@ -69,3 +69,7 @@ Nav names, "Your name / phone / town," "Call or text," "Call," "Text," "Call Jay
 ## Reading level
 
 Measured with the Flesch-Kincaid grade formula (2026-11-11): home 2.3, services 2.9, work 2.8, about 4.1, contact 2.3. Every page is well under 8th grade. The only lines that score higher are headings and place names like "Mississippi Delta," which the formula scores high for their syllables.
+
+## Photo captions
+
+Captions come from `brief.json` photos: type of job, town (from the photo's GPS) and year. Inverness and the 2024 cabinet job have estimated years. The Inverness note ("Every shower gets a full waterproof layer...") describes what the photos show. Jay should confirm it's true of every shower before launch.

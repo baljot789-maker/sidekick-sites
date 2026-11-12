@@ -86,7 +86,117 @@
     "logo_file": null,
     "client_colors": []
   },
-  "photos": [],
+  "photos": [
+    {
+      "file": "raw/drive/2026_Moorhead/IMG_9660.JPEG",
+      "site": "images/bathroom-moorhead-tub-chandelier.jpg",
+      "shows": "Finished bathroom with a freestanding tub, a navy cabinet and a round chandelier",
+      "alt": "Finished bathroom with a freestanding tub, a navy cabinet and a round chandelier",
+      "caption": "Bathroom remodel, Moorhead, 2026",
+      "usable": true,
+      "use_on": [
+        "hero",
+        "work"
+      ]
+    },
+    {
+      "file": "raw/drive/2026_Moorhead/IMG_9658.JPEG",
+      "site": "images/bathroom-moorhead-tub.jpg",
+      "shows": "Freestanding tub on marble-look tile under a navy wall cabinet",
+      "alt": "Freestanding tub on marble-look tile under a navy wall cabinet",
+      "caption": "Bathroom remodel, Moorhead, 2026",
+      "usable": true,
+      "use_on": [
+        "card:bathrooms",
+        "service:bathrooms",
+        "home-gallery"
+      ]
+    },
+    {
+      "file": "raw/drive/2026_Moorhead/IMG_9659.JPEG",
+      "site": "images/bathroom-moorhead-wide.jpg",
+      "shows": "Freestanding tub with a floor-mounted faucet and tile wainscot",
+      "alt": "Freestanding tub with a floor-mounted faucet and tile wainscot",
+      "caption": "Bathroom remodel, Moorhead, 2026",
+      "usable": true,
+      "use_on": [
+        "about"
+      ]
+    },
+    {
+      "file": "raw/drive/2026_Moorhead/IMG_9655.JPEG",
+      "site": "images/bathroom-moorhead-detail.jpg",
+      "shows": "Navy cabinet over stacked subway tile behind the tub",
+      "alt": "Navy cabinet over stacked subway tile behind the tub",
+      "caption": "Bathroom remodel, Moorhead, 2026",
+      "usable": true,
+      "use_on": [
+        "work"
+      ]
+    },
+    {
+      "file": "raw/drive/2026_Inverness/IMG_7518.JPG",
+      "site": "images/shower-inverness-finished.jpg",
+      "shows": "Finished walk-in shower with a tiled bench, a niche and a hex mosaic floor",
+      "alt": "Finished walk-in shower with a tiled bench, a niche and a hex mosaic floor",
+      "caption": "Shower remodel, Inverness, 2026",
+      "usable": true,
+      "use_on": [
+        "card:showers",
+        "home-gallery",
+        "work",
+        "after"
+      ]
+    },
+    {
+      "file": "raw/drive/2026_Inverness/IMG_7199.JPG",
+      "site": "images/shower-inverness-waterproofed.jpg",
+      "shows": "Shower framed and fully waterproofed before any tile goes up",
+      "alt": "Shower framed and fully waterproofed before any tile goes up",
+      "caption": "Shower remodel, Inverness, 2026",
+      "usable": true,
+      "use_on": [
+        "before"
+      ]
+    },
+    {
+      "file": "raw/drive/2026_Inverness/IMG_7298.JPG",
+      "site": "images/shower-inverness-tile.jpg",
+      "shows": "Wall tile going up over the waterproofing, with the mosaic floor set",
+      "alt": "Wall tile going up over the waterproofing, with the mosaic floor set",
+      "caption": "Shower remodel, Inverness, 2026",
+      "usable": true,
+      "use_on": [
+        "work"
+      ]
+    },
+    {
+      "file": "raw/drive/2024_near-Belzoni/IMG_2671.JPG",
+      "site": "images/kitchen-belzoni-cabinets.jpg",
+      "shows": "New cabinets with glass doors, a brick wall and a granite counter",
+      "alt": "New cabinets with glass doors, a brick wall and a granite counter",
+      "caption": "Cabinet and counter install, near Belzoni, 2024",
+      "usable": true,
+      "use_on": [
+        "card:kitchens",
+        "service:kitchens",
+        "home-gallery",
+        "work"
+      ]
+    },
+    {
+      "file": "raw/drive/2024_near-Belzoni/IMG_2582.JPG",
+      "site": "images/kitchen-belzoni-cabinet-build.jpg",
+      "shows": "Cabinet boxes being built in place on a new tile floor",
+      "alt": "Cabinet boxes being built in place on a new tile floor",
+      "caption": "Cabinet build, near Belzoni, 2024",
+      "usable": true,
+      "use_on": [
+        "service:remodeling",
+        "work"
+      ]
+    }
+  ],
   "proof": {
     "rating": null,
     "review_count": null,
@@ -184,7 +294,6 @@
   "gaps": [
     "business.phone (new AKM customer number)",
     "logo (designer booked by Joe, about $60)",
-    "photos: at least 5 finished jobs, before and after, across bathrooms, kitchens and roofs",
     "photos: commercial kitchen before and after",
     "proof.reviews: 2 or 3 word-for-word quotes with first name, town and permission, ideally on honesty, transparent pricing or saving money",
     "business.license number and proof of insurance",
@@ -192,7 +301,10 @@
     "domain",
     "form service that accepts file uploads (blueprints)",
     "business.hours",
-    "about: how Jay got started, what AKM stands for"
+    "about: how Jay got started, what AKM stands for",
+    "photos: roofing jobs (none yet)",
+    "photos: new builds (none yet)",
+    "photos: before shots of a finished room"
   ],
   "preview_path": "akm-construction-61pe",
   "mode_note": "Jay is a paying client (Website Brief, 2026-11-07). The build stays in preview mode (banner, noindex, form to Joe) until photos, logo and the AKM number are in. Switch mode to client at launch.",
@@ -206,5 +318,60 @@
     "Real estate services (not running yet)",
     "Named lenders or government programs until written permission",
     "Any handyman or small-job language"
-  ]
+  ],
+  "photos_not_used": [
+    {
+      "file": "raw/drive/2026_Moorhead/IMG_8703.PNG",
+      "why": "Text message screenshot. Shows a customer's name. Never publish."
+    },
+    {
+      "file": "raw/drive/2026_Inverness/IMG_7278.JPEG",
+      "why": "Drain close-up with a red circle drawn on it."
+    },
+    {
+      "file": "raw/drive/2026_Inverness/IMG_7208.JPG",
+      "why": "Near-duplicate of IMG_7199."
+    },
+    {
+      "file": "raw/drive/2026_Inverness/IMG_7209.JPG",
+      "why": "Text overlay baked in."
+    },
+    {
+      "file": "raw/drive/2026_Inverness/IMG_7519.JPG",
+      "why": "Text overlay baked in. IMG_7518 is the clean copy."
+    },
+    {
+      "file": "raw/drive/2026_Inverness/IMG_7520.JPG",
+      "why": "Text overlay baked in. IMG_7518 is the clean copy."
+    },
+    {
+      "file": "raw/drive/2026_Inverness/IMG_7260.JPG",
+      "why": "Worker in frame. Needs his OK."
+    },
+    {
+      "file": "raw/drive/2026_Inverness/IMG_7302.JPG",
+      "why": "Selfie. Needs his OK."
+    },
+    {
+      "file": "raw/drive/2025_near-Belzoni/IMG_6723.JPG",
+      "why": "Crew member tiling, face visible. Good About-page photo once he says yes."
+    },
+    {
+      "file": "raw/drive/2025_Belzoni/IMG_4785.JPG",
+      "why": "Kitchen in progress with a person on a ladder."
+    },
+    {
+      "file": "raw/drive/2026_Belzoni/IMG_7694.JPG",
+      "why": "Electrical service mast. Text overlay baked in."
+    },
+    {
+      "file": "raw/drive/2026_Belzoni/IMG_7886.JPG",
+      "why": "Electrical panels, wall open. Could be the commercial kitchen job: confirm with Jay."
+    },
+    {
+      "file": "raw/drive/2026_Belzoni/IMG_7887.JPG",
+      "why": "Same panels, emoji text overlay baked in."
+    }
+  ],
+  "photos_source": "Google Drive folder 'Web project - AKM' (2026-11-12). Folders named by year and town from each photo's GPS. Years for the 2024 and Inverness folders are estimated from the photo numbering. Two .MOV videos (2024) not downloaded."
 }

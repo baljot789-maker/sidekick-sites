@@ -5,7 +5,7 @@ Updated 2026-11-10 from the Website Brief (2026-11-07).
 ## Blocks launch
 
 1. **AKM customer number.** Left blank on purpose. Every Call and Text button is hidden until it's set. To add it, type it once at the top of `site/site.js` (`var PHONE = "";`), then copy the site into previews again. Pick a 662 number: that's the Belzoni area code.
-2. **Photos.** 15 arched frames read "Your job photos go here." The brief asks for at least 5 finished jobs with before and after, across bathrooms, kitchens and roofs, plus the commercial kitchen. A remodeler's site goes live only with real photos (patterns.md, rule 5).
+2. **Photos.** 9 real job photos are on the site now (from the Drive folder "Web project - AKM"): the Moorhead bathroom, the Inverness shower start to finish, and the cabinet job near Belzoni. Still empty: roofing (no photos at all), new builds (none) and the commercial kitchen story. The site claims roofing and new builds with zero pictures of either. Get 2 or 3 of each from Jay. Every photo is captioned with the type of job, the town and the year, no dates. Towns come from each photo's GPS, which is stripped from the copies on the site so customers' home locations aren't published.
 3. **Logo.** Joe is booking the designer. Until then the header uses a typed "AKM / Real Estate and Construction" wordmark and the footer a round AKM seal.
 4. **Domain.** Jay picks it and registers it in AKM's own account with two-factor sign-in.
 
@@ -19,6 +19,12 @@ Updated 2026-11-10 from the Website Brief (2026-11-07).
 ## Form
 
 The quote form texts Joe (614-623-8379) until the AKM number exists, per the preview rule. It opens the visitor's texting app with their details typed in, and tells them to attach photos, or blueprints for a new build, before sending. That covers the brief's blueprint upload for now with no outside service. A web form with file uploads (the brief's "From Joe" item) can replace it later. On a desktop computer, the text link may not open anything, so desktop visitors need the phone number once it exists.
+
+## Photos to ask about
+
+- `raw/drive/2026_Belzoni/IMG_7886.JPG` (electrical panels, Belzoni, 2026) may be the commercial kitchen. If Jay says yes, it goes in that story.
+- `raw/drive/2025_near-Belzoni/IMG_6723.JPG` shows a crew member tiling, smiling. Great for the About page, but only with his OK.
+- `raw/drive/2026_Moorhead/IMG_8703.PNG` is a text thread with a customer's name in it. Never put it on the site.
 
 ## Search
 
