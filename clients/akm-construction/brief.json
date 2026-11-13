@@ -4,44 +4,409 @@
   "mode": "preview",
   "kit": "none yet: built from Joe's direction ('Old Southern charm meets modern design') plus kits/residential-construction/research.md and patterns.md. Fonts: Libre Caslon Display, Libre Caslon Text, Libre Franklin (Google Fonts, SIL OFL).",
   "business": {
-    "name": "AKM Construction",
+    "name": "AKM Real Estate and Construction",
+    "short_name": "AKM",
     "owner_name": "Jay Singh",
-    "phone": "614-390-2931",
+    "phone": null,
+    "phone_note": "Leave blank until the new AKM customer number is set up (Joe). Per the partnership agreement, that number goes on the site and cards. Set it once, in site.js (PHONE).",
     "texts_ok": true,
     "email": null,
     "address": null,
     "show_address": false,
     "hours": null,
     "license": null,
-    "insured": null,
+    "license_note": "Jay says licensed and insured in Mississippi. Not on the site until Jay sends the licence number and proof of insurance.",
+    "insured": true,
+    "certifications": [
+      {
+        "value": "FORTIFIED certified roofer",
+        "confirmed": false,
+        "note": "From the brief. Verify in the IBHS FORTIFIED directory before launch. Roofing itself is off the site until there are photos."
+      }
+    ],
     "years_in_business": null,
-    "owner_years_in_construction": "more than 10"
+    "owner_years_in_construction": "10 to 12 (site says 'more than 10')",
+    "free_estimate": true,
+    "licensed": {
+      "value": true,
+      "source": "Website Brief 2026-11-07: 'Licensed and insured in Mississippi'",
+      "confirmed": false,
+      "note": "LAUNCH BLOCKER: get Jay's license number and proof of insurance before this goes live. Badges are on the preview only because Joe asked for them."
+    }
   },
   "services": [
     {
       "name": "Bathroom remodels",
-      "facts": "Main line of work",
-      "priority": 1
+      "priority": 1,
+      "facts": "Full remodels only. Includes demolition, new bathtub, needed plumbing and electrical, new lights, painting, trim and mirrors.",
+      "price": "$6,000 to $8,000 labor only for a 5 x 8 bathroom; materials extra",
+      "price_moves": "Bigger rooms, small or large-format tile, tile patterns",
+      "show_price_on_site": false
     },
     {
       "name": "Kitchen remodels",
-      "facts": "Taken on more recently",
-      "priority": 2
+      "priority": 2,
+      "facts": "Full remodels only.",
+      "price": "$15,000 to $25,000 including cabinets, excluding granite",
+      "price_moves": "Islands, cabinet material",
+      "show_price_on_site": false
+    },
+    {
+      "name": "Roofing",
+      "priority": 3,
+      "facts": "Own crew. Full replacements and repairs in shingle, metal and TPO. Handles storm insurance claims. Completed FORTIFIED roofing projects across the Mississippi Delta.",
+      "price": "Quoted per job",
+      "on_site": false,
+      "off_site_reason": "No photos yet. Turn back on when Jay sends them.",
+      "show_price_on_site": false
+    },
+    {
+      "name": "New builds",
+      "priority": 4,
+      "facts": "Estimate from blueprints or other project documents.",
+      "price": "About $250,000 for 2,000 to 2,500 sq ft",
+      "price_moves": "Location",
+      "on_site": false,
+      "off_site_reason": "No photos yet. Turn back on when Jay sends them.",
+      "show_price_on_site": false
+    },
+    {
+      "name": "General remodeling",
+      "priority": 5,
+      "facts": "Full remodels only. No handyman or small-job work.",
+      "price": "Quoted per job",
+      "on_site": false,
+      "off_site_reason": "No photos yet. Turn back on when Jay sends them.",
+      "show_price_on_site": false
     }
   ],
   "service_area": {
     "primary_town": "Belzoni, MS",
-    "towns": []
+    "regions": [
+      "the Mississippi Delta",
+      "the Jackson area",
+      "Oxford"
+    ],
+    "towns": [
+      "Yazoo City",
+      "Greenwood",
+      "Jackson",
+      "Madison",
+      "Ridgeland",
+      "Flowood",
+      "Brandon",
+      "Oxford"
+    ],
+    "note": "Delta towns, Madison and Oxford are from the 2026-11-07 brief. Jackson, Ridgeland, Flowood, Brandon and Lafayette County were added by Joe in chat 2026-11-10 for search (the affluent Jackson suburbs). Jay should confirm he takes jobs in each."
   },
   "brand": {
     "logo_file": null,
     "client_colors": []
   },
-  "photos": [],
+  "photos": [
+    {
+      "site": "images/moorhead-1-before.jpg",
+      "alt": "Dated bathroom with wallpaper, a corner tub and a cream vanity",
+      "caption": "A bathroom in Moorhead, Moorhead, 2026",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Apr 14 - Aug 5, 2026",
+      "file": "raw/drive-all/Apr 14 - Aug 5, 2026/IMG_8676.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/moorhead-2-demolition.jpg",
+      "alt": "Floor and walls torn out to the studs",
+      "caption": "A bathroom in Moorhead, Moorhead, 2026",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Apr 14 - Aug 5, 2026",
+      "file": "raw/drive-all/Apr 14 - Aug 5, 2026/IMG_8726.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/moorhead-3-plumbing.jpg",
+      "alt": "New supply lines run through the open wall",
+      "caption": "A bathroom in Moorhead, Moorhead, 2026",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Apr 14 - Aug 5, 2026",
+      "file": "raw/drive-all/Apr 14 - Aug 5, 2026/IMG_9181.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/moorhead-4-vanity.jpg",
+      "alt": "New dark vanity with lit mirrors on a fresh tile floor",
+      "caption": "A bathroom in Moorhead, Moorhead, 2026",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Apr 14 - Aug 5, 2026",
+      "file": "raw/drive-all/Apr 14 - Aug 5, 2026/IMG_9289.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/moorhead-5-tile.jpg",
+      "alt": "Wall tile going up in a stair-step pattern below a navy cabinet",
+      "caption": "A bathroom in Moorhead, Moorhead, 2026",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Apr 14 - Aug 5, 2026",
+      "file": "raw/drive-all/Apr 14 - Aug 5, 2026/IMG_9564.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/moorhead-6-after.jpg",
+      "alt": "Finished bathroom with a freestanding tub, a marble-look floor and a round chandelier",
+      "caption": "A bathroom in Moorhead, Moorhead, 2026",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Apr 14 - Aug 5, 2026",
+      "file": "raw/drive-all/Apr 14 - Aug 5, 2026/IMG_9652.JPG",
+      "use_on": [
+        "hero",
+        "card:bathrooms",
+        "service:bathrooms"
+      ]
+    },
+    {
+      "site": "images/inverness-1-waterproofed.jpg",
+      "alt": "Shower pan and walls sealed with waterproof board before any tile",
+      "caption": "A shower in Inverness, Inverness, 2026",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Inverness - Dec 20, 2025 - Jan 13, 2026",
+      "file": "raw/drive-all/Inverness - Dec 20, 2025 - Jan 13, 2026/IMG_7200.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/inverness-2-floor.jpg",
+      "alt": "Hex mosaic floor tile going into the shower pan",
+      "caption": "A shower in Inverness, Inverness, 2026",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Inverness - Dec 20, 2025 - Jan 13, 2026",
+      "file": "raw/drive-all/Inverness - Dec 20, 2025 - Jan 13, 2026/IMG_7262.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/inverness-3-tile.jpg",
+      "alt": "Large wall tile going up with spacers",
+      "caption": "A shower in Inverness, Inverness, 2026",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Inverness - Dec 20, 2025 - Jan 13, 2026",
+      "file": "raw/drive-all/Inverness - Dec 20, 2025 - Jan 13, 2026/IMG_7311.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/inverness-4-walls.jpg",
+      "alt": "Tiled walls, niche and bench finished",
+      "caption": "A shower in Inverness, Inverness, 2026",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Inverness - Dec 20, 2025 - Jan 13, 2026",
+      "file": "raw/drive-all/Inverness - Dec 20, 2025 - Jan 13, 2026/IMG_7501.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/inverness-5-finished.jpg",
+      "alt": "Finished tiled shower with a bench, a niche and a hex mosaic floor",
+      "caption": "A shower in Inverness, Inverness, 2026",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Inverness - Dec 20, 2025 - Jan 13, 2026",
+      "file": "raw/drive-all/Inverness - Dec 20, 2025 - Jan 13, 2026/IMG_7517.JPG",
+      "use_on": [
+        "service:bathrooms"
+      ]
+    },
+    {
+      "site": "images/hood-1-before.jpg",
+      "alt": "Bare reclaimed brick wall with outlet boxes in a row and a cabinet box on the floor",
+      "caption": "Kitchen with a copper hood, near Belzoni, 2025",
+      "w": 1600,
+      "h": 1387,
+      "drive_folder": "Nov 1, 2024 - Mar 27, 2025",
+      "file": "raw/drive-all/Nov 1, 2024 - Mar 27, 2025/IMG_1987.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/hood-2-cabinets.jpg",
+      "alt": "Upper and base cabinet boxes going in along the brick wall",
+      "caption": "Kitchen with a copper hood, near Belzoni, 2025",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Nov 1, 2024 - Mar 27, 2025",
+      "file": "raw/drive-all/Nov 1, 2024 - Mar 27, 2025/IMG_1990.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/hood-3-after.jpg",
+      "alt": "Copper range hood on the brick wall between stained cabinets",
+      "caption": "Kitchen with a copper hood, near Belzoni, 2025",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Nov 1, 2024 - Mar 27, 2025",
+      "file": "raw/drive-all/Nov 1, 2024 - Mar 27, 2025/IMG_3411.JPG",
+      "use_on": [
+        "service:kitchens"
+      ]
+    },
+    {
+      "site": "images/island-1-before.jpg",
+      "alt": "Base cabinets set against bare drywall on a plywood floor",
+      "caption": "Kitchen with a granite island, near Belzoni, 2024",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Jul 8 - Oct 31, 2024",
+      "file": "raw/drive-all/Jul 8 - Oct 31, 2024/IMG_9835.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/island-2-cabinets.jpg",
+      "alt": "Cabinets going in along the far wall of a big open room",
+      "caption": "Kitchen with a granite island, near Belzoni, 2024",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Jul 8 - Oct 31, 2024",
+      "file": "raw/drive-all/Jul 8 - Oct 31, 2024/IMG_9879.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/island-3-island.jpg",
+      "alt": "Granite top on the island with a wood front",
+      "caption": "Kitchen with a granite island, near Belzoni, 2024",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Jul 8 - Oct 31, 2024",
+      "file": "raw/drive-all/Jul 8 - Oct 31, 2024/IMG_1255.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/island-4-finished.jpg",
+      "alt": "White cabinets around a built-in oven and microwave",
+      "caption": "Kitchen with a granite island, near Belzoni, 2024",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Jul 8 - Oct 31, 2024",
+      "file": "raw/drive-all/Jul 8 - Oct 31, 2024/IMG_1801.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/island-5-after.jpg",
+      "alt": "Finished kitchen with white cabinets, granite, a stone backsplash and a steel hood by the window",
+      "caption": "Kitchen with a granite island, near Belzoni, 2024",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Jul 8 - Oct 31, 2024",
+      "file": "raw/drive-all/Jul 8 - Oct 31, 2024/IMG_1805.JPG",
+      "use_on": [
+        "card:kitchens",
+        "service:kitchens"
+      ]
+    },
+    {
+      "site": "images/tubbath-1-before.jpg",
+      "alt": "Old tub and shower with a curtain, a window and a toilet",
+      "caption": "A tub and shower near Belzoni, near Belzoni, 2025",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Aug 4 - Nov 18, 2025",
+      "file": "raw/drive-all/Aug 4 - Nov 18, 2025/IMG_5428.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/tubbath-2-framed.jpg",
+      "alt": "Walls framed with a niche and a new tub going in",
+      "caption": "A tub and shower near Belzoni, near Belzoni, 2025",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Aug 4 - Nov 18, 2025",
+      "file": "raw/drive-all/Aug 4 - Nov 18, 2025/IMG_6649.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/tubbath-3-tile.jpg",
+      "alt": "Tall stacked tile going up around the tub",
+      "caption": "A tub and shower near Belzoni, near Belzoni, 2025",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Aug 4 - Nov 18, 2025",
+      "file": "raw/drive-all/Aug 4 - Nov 18, 2025/IMG_6661.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/tubbath-4-after.jpg",
+      "alt": "New tiled tub surround with a window and a niche",
+      "caption": "A tub and shower near Belzoni, near Belzoni, 2025",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Aug 4 - Nov 18, 2025",
+      "file": "raw/drive-all/Aug 4 - Nov 18, 2025/IMG_6776.JPG",
+      "use_on": [
+        "service:bathrooms"
+      ]
+    },
+    {
+      "site": "images/tubbath-5-fixtures.jpg",
+      "alt": "Finished tile and brass shower fixtures over the tub",
+      "caption": "A tub and shower near Belzoni, near Belzoni, 2025",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Aug 4 - Nov 18, 2025",
+      "file": "raw/drive-all/Aug 4 - Nov 18, 2025/IMG_6909.JPG",
+      "use_on": []
+    },
+    {
+      "site": "images/more-shower-glass.jpg",
+      "alt": "Finished shower with a glass door, a niche, a bench and a patterned floor",
+      "caption": "Shower remodel, near Belzoni, 2025",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Aug 4 - Nov 18, 2025",
+      "file": "raw/drive-all/Aug 4 - Nov 18, 2025/IMG_6574.JPG",
+      "use_on": [
+        "about",
+        "service:bathrooms",
+        "more"
+      ]
+    },
+    {
+      "site": "images/more-kitchen-2025.jpg",
+      "alt": "Gray painted cabinets, a pendant light and a new island in a finished kitchen",
+      "caption": "Kitchen remodel, near Belzoni, 2025",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Jun 17, 2025",
+      "file": "raw/drive-all/Jun 17, 2025/IMG_4769.JPG",
+      "use_on": [
+        "service:kitchens",
+        "more"
+      ]
+    },
+    {
+      "site": "images/more-kitchen-leland.jpg",
+      "alt": "Finished kitchen with white cabinets, a stone backsplash and a window over the sink",
+      "caption": "Kitchen remodel, near Leland, 2024",
+      "w": 1200,
+      "h": 1600,
+      "drive_folder": "Jul 25, 2024",
+      "file": "raw/drive-all/Jul 25, 2024/IMG_9989.JPG",
+      "use_on": [
+        "service:kitchens",
+        "more"
+      ]
+    }
+  ],
   "proof": {
     "rating": null,
     "review_count": null,
-    "reviews": []
+    "reviews": [],
+    "story": {
+      "value": "Commercial kitchen rebuild: walls coated in grease, inside wrecked. Refitted in new stainless steel, space extended, plus roofing, HVAC and electrical. Raised the property's value. Proof of range only.",
+      "confirmed": true,
+      "photos": "before and after pending"
+    }
   },
   "voice": {
     "owner_phrases": [],
@@ -49,33 +414,43 @@
   },
   "customer": {
     "who_hires_them": {
-      "value": "Homeowners in and around Belzoni with a dated or worn bathroom, and lately kitchens",
-      "confirmed": false
+      "value": "Homeowners in Belzoni and the Delta who want a full, higher-end remodel, a new roof or a new house",
+      "confirmed": true
     },
     "what_they_worry_about": {
-      "value": "A crew in their house for weeks, a mess left behind, sloppy finish work",
-      "confirmed": false
+      "value": "Will the job get finished? Am I being overcharged?",
+      "confirmed": true
     },
     "what_they_want": {
-      "value": "A bathroom or kitchen they're glad to show company",
-      "confirmed": false
+      "value": "Work that stands for years, at a price they understand",
+      "confirmed": true
     }
   },
   "differentiators": [
     {
-      "value": "Customers describe high-class service",
-      "confirmed": false
+      "value": "Paid only as each milestone is completed. Clients can buy materials directly and have them delivered. Anything Jay buys is reimbursed at cost straight away.",
+      "confirmed": true
     },
     {
-      "value": "Customers describe attention to detail",
-      "confirmed": false
+      "value": "Open about labor costs. Walks clients through each choice, explains why a bigger spend is needed, looks for ways to save them money.",
+      "confirmed": true
+    },
+    {
+      "value": "Listens, lays out a clear plan, is straight about what's feasible and why, so the work stands for years.",
+      "confirmed": true
     }
   ],
   "domain": {
     "wanted": null,
-    "already_owned": null
+    "already_owned": false,
+    "note": "Jay picks it and registers it in AKM's own account with two-factor sign-in."
   },
   "sources": [
+    {
+      "field": "everything above",
+      "from": "ScaleUp Sidekicks Website Brief for AKM, Joe, 2026-11-07, from Joe's conversation with Jay",
+      "confirmed": true
+    },
     {
       "field": "business.name",
       "from": "Joe, in chat 2026-10-19",
@@ -118,16 +493,265 @@
     }
   ],
   "gaps": [
-    "photos",
-    "logo",
-    "service_area.towns",
-    "services: what a typical bathroom or kitchen job includes",
-    "estimate: free or paid?",
+    "business.phone (new AKM customer number)",
+    "logo (designer booked by Joe, about $60)",
+    "photos: commercial kitchen before and after",
+    "proof.reviews: 2 or 3 word-for-word quotes with first name, town and permission, ideally on honesty, transparent pricing or saving money",
+    "business.license number and proof of insurance",
+    "business.email",
+    "domain",
+    "form service that accepts file uploads (blueprints)",
     "business.hours",
-    "business.license",
-    "business.insured",
-    "proof.reviews (customer words exist per Joe but none in writing)",
-    "about: how Jay got started, what AKM stands for"
+    "about: how Jay got started, what AKM stands for",
+    "photos: roofing jobs (none found in the 96 opened)",
+    "photos: confirm whether the 2024 kitchen build near Belzoni was a new house (then New builds can return)"
   ],
-  "preview_path": "akm-construction-61pe"
+  "preview_path": "akm-construction-61pe",
+  "mode_note": "Jay is a paying client (Website Brief, 2026-11-07). The build stays in preview mode (banner, noindex, form to Joe) until photos, logo and the AKM number are in. Switch mode to client at launch.",
+  "materials": "AKM sources the core materials and bills them at receipt cost. Clients can buy their own fixtures and decorative pieces.",
+  "partner_trades": "Partner contractors for plumbing, electrical and concrete, so one call can cover a whole project. Partners not named.",
+  "calls_to_action": [
+    "Remodels and roofing: free estimate, ideally with a few photos of the space",
+    "New builds: send blueprints or project documents for an estimate"
+  ],
+  "keep_off_v1": [
+    "Real estate services (not running yet)",
+    "Named lenders or government programs until written permission",
+    "Any handyman or small-job language"
+  ],
+  "photos_not_used": [
+    {
+      "file": "raw/drive/2026_Moorhead/IMG_8703.PNG",
+      "why": "Text message screenshot. Shows a customer's name. Never publish."
+    },
+    {
+      "file": "raw/drive/2026_Inverness/IMG_7278.JPEG",
+      "why": "Drain close-up with a red circle drawn on it."
+    },
+    {
+      "file": "raw/drive/2026_Inverness/IMG_7208.JPG",
+      "why": "Near-duplicate of IMG_7199."
+    },
+    {
+      "file": "raw/drive/2026_Inverness/IMG_7209.JPG",
+      "why": "Text overlay baked in."
+    },
+    {
+      "file": "raw/drive/2026_Inverness/IMG_7519.JPG",
+      "why": "Text overlay baked in. IMG_7518 is the clean copy."
+    },
+    {
+      "file": "raw/drive/2026_Inverness/IMG_7520.JPG",
+      "why": "Text overlay baked in. IMG_7518 is the clean copy."
+    },
+    {
+      "file": "raw/drive/2026_Inverness/IMG_7260.JPG",
+      "why": "Worker in frame. Needs his OK."
+    },
+    {
+      "file": "raw/drive/2026_Inverness/IMG_7302.JPG",
+      "why": "Selfie. Needs his OK."
+    },
+    {
+      "file": "raw/drive/2025_near-Belzoni/IMG_6723.JPG",
+      "why": "Crew member tiling, face visible. Good About-page photo once he says yes."
+    },
+    {
+      "file": "raw/drive/2025_Belzoni/IMG_4785.JPG",
+      "why": "Kitchen in progress with a person on a ladder."
+    },
+    {
+      "file": "raw/drive/2026_Belzoni/IMG_7694.JPG",
+      "why": "Electrical service mast. Text overlay baked in."
+    },
+    {
+      "file": "raw/drive/2026_Belzoni/IMG_7886.JPG",
+      "why": "Electrical panels, wall open. Could be the commercial kitchen job: confirm with Jay."
+    },
+    {
+      "file": "raw/drive/2026_Belzoni/IMG_7887.JPG",
+      "why": "Same panels, emoji text overlay baked in."
+    }
+  ],
+  "photos_source": "Google Drive folder 'Web project - AKM' (375 photos, 177 videos). About half the photos opened (179), sorted by camera time. Originals in raw/drive-all/<Drive folder name>/ (not in git). Each job is checked to come from one Drive folder and one address.",
+  "sections_hidden": [
+    "roofing",
+    "new builds",
+    "other remodels",
+    "commercial kitchen story"
+  ],
+  "jobs": [
+    {
+      "id": "moorhead",
+      "title": "A bathroom in Moorhead",
+      "place": "Moorhead",
+      "year": 2026,
+      "note": "From the old bath to the finished room.",
+      "drive_folder": "Apr 14 - Aug 5, 2026",
+      "verified": "all photos within 150 m of the first, one Drive folder",
+      "compare": [
+        "images/moorhead-1-before.jpg",
+        "images/moorhead-6-after.jpg"
+      ],
+      "slides": [
+        {
+          "site": "images/moorhead-1-before.jpg",
+          "tag": "Before"
+        },
+        {
+          "site": "images/moorhead-2-demolition.jpg",
+          "tag": "Demolition"
+        },
+        {
+          "site": "images/moorhead-3-plumbing.jpg",
+          "tag": "Plumbing"
+        },
+        {
+          "site": "images/moorhead-4-vanity.jpg",
+          "tag": "New vanity"
+        },
+        {
+          "site": "images/moorhead-5-tile.jpg",
+          "tag": "Tile going up"
+        },
+        {
+          "site": "images/moorhead-6-after.jpg",
+          "tag": "After"
+        }
+      ]
+    },
+    {
+      "id": "inverness",
+      "title": "A shower in Inverness",
+      "place": "Inverness",
+      "year": 2026,
+      "note": "From the waterproof layer to the finished shower.",
+      "drive_folder": "Inverness - Dec 20, 2025 - Jan 13, 2026",
+      "verified": "all photos within 150 m of the first, one Drive folder",
+      "compare": [
+        "images/inverness-1-waterproofed.jpg",
+        "images/inverness-5-finished.jpg"
+      ],
+      "slides": [
+        {
+          "site": "images/inverness-1-waterproofed.jpg",
+          "tag": "Waterproofed"
+        },
+        {
+          "site": "images/inverness-2-floor.jpg",
+          "tag": "Floor tile"
+        },
+        {
+          "site": "images/inverness-3-tile.jpg",
+          "tag": "Tile going up"
+        },
+        {
+          "site": "images/inverness-4-walls.jpg",
+          "tag": "Walls done"
+        },
+        {
+          "site": "images/inverness-5-finished.jpg",
+          "tag": "Finished"
+        }
+      ]
+    },
+    {
+      "id": "hood",
+      "title": "Kitchen with a copper hood",
+      "place": "near Belzoni",
+      "year": 2025,
+      "note": "From a bare brick wall to a copper range hood.",
+      "drive_folder": "Nov 1, 2024 - Mar 27, 2025",
+      "verified": "all photos within 150 m of the first, one Drive folder",
+      "compare": [
+        "images/hood-1-before.jpg",
+        "images/hood-3-after.jpg"
+      ],
+      "slides": [
+        {
+          "site": "images/hood-1-before.jpg",
+          "tag": "Before"
+        },
+        {
+          "site": "images/hood-2-cabinets.jpg",
+          "tag": "Cabinets going in"
+        },
+        {
+          "site": "images/hood-3-after.jpg",
+          "tag": "After"
+        }
+      ]
+    },
+    {
+      "id": "island",
+      "title": "Kitchen with a granite island",
+      "place": "near Belzoni",
+      "year": 2024,
+      "note": "From bare cabinet frames to a finished kitchen.",
+      "drive_folder": "Jul 8 - Oct 31, 2024",
+      "verified": "all photos within 150 m of the first, one Drive folder",
+      "compare": [
+        "images/island-1-before.jpg",
+        "images/island-5-after.jpg"
+      ],
+      "slides": [
+        {
+          "site": "images/island-1-before.jpg",
+          "tag": "Before"
+        },
+        {
+          "site": "images/island-2-cabinets.jpg",
+          "tag": "Cabinets going in"
+        },
+        {
+          "site": "images/island-3-island.jpg",
+          "tag": "Granite island"
+        },
+        {
+          "site": "images/island-4-finished.jpg",
+          "tag": "Finished"
+        },
+        {
+          "site": "images/island-5-after.jpg",
+          "tag": "After"
+        }
+      ]
+    },
+    {
+      "id": "tubbath",
+      "title": "A tub and shower near Belzoni",
+      "place": "near Belzoni",
+      "year": 2025,
+      "note": "From a dated tub and shower to new tile and fixtures.",
+      "drive_folder": "Aug 4 - Nov 18, 2025",
+      "verified": "all photos within 150 m of the first, one Drive folder",
+      "compare": [
+        "images/tubbath-1-before.jpg",
+        "images/tubbath-4-after.jpg"
+      ],
+      "slides": [
+        {
+          "site": "images/tubbath-1-before.jpg",
+          "tag": "Before"
+        },
+        {
+          "site": "images/tubbath-2-framed.jpg",
+          "tag": "Walls framed"
+        },
+        {
+          "site": "images/tubbath-3-tile.jpg",
+          "tag": "Tile going up"
+        },
+        {
+          "site": "images/tubbath-4-after.jpg",
+          "tag": "After"
+        },
+        {
+          "site": "images/tubbath-5-fixtures.jpg",
+          "tag": "Finished fixtures"
+        }
+      ]
+    }
+  ],
+  "pricing_on_site": "none (Joe, 2026-11-13). Price ranges stay in this file for estimates only."
 }

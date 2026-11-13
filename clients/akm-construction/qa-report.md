@@ -1,22 +1,35 @@
-# QA report: AKM Construction (preview)
+# QA report: AKM Real Estate and Construction (preview)
 
-Run 2026-10-19 on clients/akm-construction/site/ (5 pages).
+Run on clients/akm-construction/site/ (5 pages).
 
-- PASS: No TODO, lorem, example.com, XXX; no "placeholder" in visible text
-- PASS: Form hint text uses the HTML placeholder attribute (expected, not filler copy) (contact.html, index.html)
-- PASS: Every tel:/sms: link uses 614-390-2931
-- PASS: Business name spelled "AKM Construction"
-- PASS: Every image exists and has alt text (0 images (none yet, photos pending))
-- PASS: Every page has title, meta description, viewport
-- PASS: Every internal link points to a page that exists
-- PASS: No banned fonts
-- PASS: No em dashes in visible text
-- PASS: Images under 400 KB
-- PASS: Every page has noindex robots meta
-- PASS: Every page has the preview banner
+- PASS: No TODO, lorem, example.com, XXX
+- PASS: No empty photo placeholders
+- PASS: No oval-top photo frames
+- PASS: No em dashes
+- PASS: No pricing anywhere: no dollar amounts, no 'price' or 'pricing' words
+- PASS: Hero has no photo
+- PASS: Credential badges sit right after the hero, before the before-and-after scroller
+- PASS: Three credential badges: licensed, insured, FORTIFIED
+- PASS: The hook is the opening line of the problem section
+- PASS: The hook is not repeated further down
+- PASS: Every page has title, description, viewport, noindex, preview banner
+- PASS: No JSON-LD
 - PASS: No link or image path starts with /
-- PASS: No JSON-LD block
-- PASS: Quote form texts Joe (614-623-8379) and no other number (2 forms: {'+16146238379'})
-- PASS: Joe's number appears nowhere except the form target
+- PASS: Every image file exists (27 images)
+- PASS: Every <img> has alt text
+- PASS: Images under 400 KB
+- PASS: No GPS in any site image
+- PASS: Each job: 3+ photos, one Drive folder (5 jobs)
+- PASS: Job photos appear only inside their own job strip
+- PASS: Reveal animation respects reduced motion
+- PASS: No hard-coded tel: or sms: numbers
+- PASS: site.js PHONE is blank
+- PASS: Quote forms text Joe only ({'+16146238379'})
+- PASS: Joe's number appears only as the form target
+- PASS: No roofing or new-build services on the site (no photos yet)
+- PASS: Business name never 'AKM Construction'
+- PASS: Meta titles <= 60, descriptions <= 155
+
+Browser check (Playwright, 390px phone and 1280px desktop): no sideways page scroll, every photo loads, no script errors.
 
 Lighthouse: skipped. Not run in this session.
