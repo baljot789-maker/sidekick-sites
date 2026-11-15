@@ -7,8 +7,8 @@
     "name": "AKM Real Estate and Construction",
     "short_name": "AKM",
     "owner_name": "Jay Singh",
-    "phone": null,
-    "phone_note": "Leave blank until the new AKM customer number is set up (Joe). Per the partnership agreement, that number goes on the site and cards. Set it once, in site.js (PHONE).",
+    "phone": "614-390-2931",
+    "phone_note": "Decision (Joe, 2026-11-15): Gursavick's current cell becomes the AKM business line. He gets a new personal number, and the old one moves to the AI phone service. Per the partnership agreement, it goes on the site and cards. Set it once, in site.js (PHONE). Number: 614-390-2931 (Joe, 2026-11-15). Set in site.js.",
     "texts_ok": true,
     "email": null,
     "address": null,
@@ -16,12 +16,17 @@
     "hours": null,
     "license": null,
     "license_note": "Jay says licensed and insured in Mississippi. Not on the site until Jay sends the licence number and proof of insurance.",
-    "insured": true,
+    "insured": {
+      "value": true,
+      "on_site": false,
+      "note": "All credential badges removed (Joe, 2026-11-15)."
+    },
     "certifications": [
       {
         "value": "FORTIFIED certified roofer",
         "confirmed": false,
-        "note": "From the brief. Verify in the IBHS FORTIFIED directory before launch. Roofing itself is off the site until there are photos."
+        "note": "Removed from the site (Joe, 2026-11-15).",
+        "on_site": false
       }
     ],
     "years_in_business": null,
@@ -31,7 +36,8 @@
       "value": true,
       "source": "Website Brief 2026-11-07: 'Licensed and insured in Mississippi'",
       "confirmed": false,
-      "note": "LAUNCH BLOCKER: get Jay's license number and proof of insurance before this goes live. Badges are on the preview only because Joe asked for them."
+      "note": "Removed from the site (Joe, 2026-11-15). Do not claim a license until Jay sends the number.",
+      "on_site": false
     }
   },
   "services": [

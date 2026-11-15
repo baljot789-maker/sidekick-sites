@@ -1,8 +1,9 @@
 // AKM Real Estate and Construction: phone number, mobile menu, and the quote form.
 (function () {
-  // The AKM customer number. Type it here once, like "662-555-0123", and every
-  // Call and Text button on the site appears with it. Leave it blank to hide them.
-  var PHONE = "";
+  // The AKM business line. Type it here once, like "662-555-0123", and every
+  // "Call us" button appears with it, and the estimate form texts this line
+  // instead of Joe. Leave it blank to hide the buttons.
+  var PHONE = "614-390-2931";
 
   if (PHONE) {
     var digits = PHONE.replace(/\D/g, "");
@@ -15,6 +16,7 @@
     document.querySelectorAll("[data-phone-text]").forEach(function (el) { el.textContent = PHONE; });
     document.querySelectorAll("[data-phone-block]").forEach(function (el) { el.hidden = false; });
     document.querySelectorAll("[data-no-phone]").forEach(function (el) { el.hidden = true; });
+    document.querySelectorAll("form[data-sms]").forEach(function (el) { el.setAttribute("data-sms", dial); });
   }
 
   var toggle = document.querySelector(".menu-toggle");
@@ -198,4 +200,55 @@
     }, { threshold: 0.6 });
     io.observe(card);
   });
+
+  // The kitchen that remodels itself as you scroll. The drawing pins in place while
+  // the runway below it scrolls by. Scrolling back up undoes it.
+  var kit = document.querySelector(".kit");
+  if (kit) {
+    var svg = kit.querySelector(".kit-svg");
+    var bar = kit.querySelector(".kit-progress");
+    var order = (kit.getAttribute("data-order") || "").split(",");
+    var shown = -1;
+    function apply(n, p) {
+      if (n !== shown) {
+        order.forEach(function (part, i) {
+          kit.querySelectorAll('.part[data-part="' + part + '"]').forEach(function (g) { g.classList.toggle("is-new", i < n); });
+        });
+        svg.classList.toggle("cab-new", order.indexOf("cabinets") < n);
+        shown = n;
+      }
+      svg.style.setProperty("--grime", String(1 - p));
+      bar.style.setProperty("--p", String(p));
+    }
+    var go = kit.querySelector("[data-project]");
+    if (go) go.addEventListener("click", function () {
+      var sel = document.getElementById("q-project");
+      if (sel) sel.value = go.getAttribute("data-project");
+    });
+    var still = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (still) {
+      apply(order.length, 1);
+    } else {
+      kit.classList.add("kit-on");
+      var pin = kit.querySelector(".kit-pin"), ticking = false;
+      var callBar = document.querySelector(".call-bar"), pinTop = 0;
+      function place() {
+        var barH = callBar && callBar.offsetParent !== null ? callBar.offsetHeight : 0;
+        pinTop = Math.max(0, Math.round((window.innerHeight - barH - pin.offsetHeight) / 2));
+        pin.style.top = pinTop + "px";
+      }
+      function measure() {
+        var r = kit.getBoundingClientRect();
+        var run = kit.offsetHeight - pin.offsetHeight;
+        var p = run > 0 ? Math.max(0, Math.min(1, (pinTop - r.top) / run)) : 1;
+        apply(Math.min(order.length, Math.floor(p * (order.length + 0.6))), p);
+        ticking = false;
+      }
+      function onScroll() { if (!ticking) { ticking = true; requestAnimationFrame(measure); } }
+      window.addEventListener("scroll", onScroll, { passive: true });
+      window.addEventListener("resize", function () { place(); onScroll(); });
+      place();
+      measure();
+    }
+  }
 })();
