@@ -1,7 +1,8 @@
 // AKM Real Estate and Construction: phone number, mobile menu, and the quote form.
 (function () {
-  // The AKM customer number. Type it here once, like "662-555-0123", and every
-  // Call and Text button on the site appears with it. Leave it blank to hide them.
+  // The AKM business line. Type it here once, like "662-555-0123", and every
+  // "Call us" button appears with it, and the estimate form texts this line
+  // instead of Joe. Leave it blank to hide the buttons.
   var PHONE = "";
 
   if (PHONE) {
@@ -15,6 +16,7 @@
     document.querySelectorAll("[data-phone-text]").forEach(function (el) { el.textContent = PHONE; });
     document.querySelectorAll("[data-phone-block]").forEach(function (el) { el.hidden = false; });
     document.querySelectorAll("[data-no-phone]").forEach(function (el) { el.hidden = true; });
+    document.querySelectorAll("form[data-sms]").forEach(function (el) { el.setAttribute("data-sms", dial); });
   }
 
   var toggle = document.querySelector(".menu-toggle");
