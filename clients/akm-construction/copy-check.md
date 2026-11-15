@@ -109,3 +109,9 @@ Before and after captions: "Before" and "After" plus a short note. The Inverness
 - Mobile first: the kitchen now remodels as you scroll. It pins in the middle of the screen, swaps one part at a time, and reverses on the way back up. A thin brass bar under it fills as it goes.
 - No descriptors: the part labels, the problem and fix captions, and the extra sentence are gone. The pain and fix lines stay in copy.json, unused, in case they come back.
 - The section is just the drawing, the headline, and "Let's build your dream kitchen" right under it.
+
+## November 15, Call Jay
+
+- Every Free estimate button became Call Jay (header, hero, How it works, closing band, phone bar, services, contact), with Text Jay beside it on phones. People in the Delta know Jay personally, so his name does the selling. The number is his cell, 614-390-2931, set once in site.js. If the number is ever removed, the buttons fall back to Get a free estimate on their own.
+- How it works, step 1: "Call Jay for a free estimate. Send a few photos of the space if you can."
+- The estimate form still texts Joe until launch (preview rule).

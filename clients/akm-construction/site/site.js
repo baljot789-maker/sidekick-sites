@@ -2,7 +2,7 @@
 (function () {
   // The AKM customer number. Type it here once, like "662-555-0123", and every
   // Call and Text button on the site appears with it. Leave it blank to hide them.
-  var PHONE = "";
+  var PHONE = "614-390-2931";
 
   if (PHONE) {
     var digits = PHONE.replace(/\D/g, "");
