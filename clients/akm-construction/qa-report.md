@@ -4,32 +4,25 @@ Run on clients/akm-construction/site/ (5 pages).
 
 - PASS: No TODO, lorem, example.com, XXX
 - PASS: No empty photo placeholders
-- PASS: No oval-top photo frames
 - PASS: No em dashes
-- PASS: No pricing anywhere: no dollar amounts, no 'price' or 'pricing' words
+- PASS: No pricing anywhere
+- PASS: No credential badges or license, insurance or FORTIFIED claims
+- PASS: Retile toy sits right after the hero
+- PASS: Retile toy has 32 tiles, real buttons, a live counter (32 tiles)
+- PASS: The hook opens the problem section, once
 - PASS: Hero has no photo
-- PASS: Credential badges sit right after the hero, before the before-and-after scroller
-- PASS: Three credential badges: licensed, insured, FORTIFIED
-- PASS: The hook is the opening line of the problem section
-- PASS: The hook is not repeated further down
 - PASS: Every page has title, description, viewport, noindex, preview banner
-- PASS: No JSON-LD
 - PASS: No link or image path starts with /
 - PASS: Every image file exists (27 images)
 - PASS: Every <img> has alt text
-- PASS: Images under 400 KB
 - PASS: No GPS in any site image
-- PASS: Each job: 3+ photos, one Drive folder (5 jobs)
 - PASS: Job photos appear only inside their own job strip
-- PASS: Reveal animation respects reduced motion
+- PASS: Animations respect reduced motion
 - PASS: No hard-coded tel: or sms: numbers
-- PASS: site.js PHONE is blank
-- PASS: Quote forms text Joe only ({'+16146238379'})
-- PASS: Joe's number appears only as the form target
-- PASS: No roofing or new-build services on the site (no photos yet)
-- PASS: Business name never 'AKM Construction'
+- PASS: Quote forms text Joe only
+- PASS: No roofing or new-build services
 - PASS: Meta titles <= 60, descriptions <= 155
 
-Browser check (Playwright, 390px phone and 1280px desktop): no sideways page scroll, every photo loads, no script errors.
+Browser check (Playwright, 320px, 390px and 1280px): no sideways page scroll, every photo loads, no script errors. Retile toy: taps, Set them all, Start over and the finish message all work, every tile stays inside the grout, and Set them all is instant for reduced-motion users.
 
-Lighthouse: skipped. Not run in this session.
+Lighthouse: skipped.

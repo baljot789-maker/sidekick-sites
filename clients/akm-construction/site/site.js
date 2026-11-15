@@ -198,4 +198,43 @@
     }, { threshold: 0.6 });
     io.observe(card);
   });
+
+  // Retile the floor. Tap a tile and it turns from dated beige into the new mosaic.
+  var floor = document.querySelector(".hex-floor");
+  if (floor) {
+    var tiles = [].slice.call(floor.querySelectorAll(".hex"));
+    var countEl = document.querySelector(".play-count");
+    var done = document.querySelector(".play-done");
+    var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var timers = [];
+    function setCount() {
+      var n = tiles.filter(function (t) { return t.getAttribute("aria-pressed") === "true"; }).length;
+      countEl.textContent = countEl.getAttribute("data-template").replace("{n}", n).replace("{total}", tiles.length);
+      var all = n === tiles.length;
+      floor.classList.toggle("is-done", all);
+      done.hidden = !all;
+    }
+    function flip(t, on) {
+      if ((t.getAttribute("aria-pressed") === "true") === on) return;
+      t.setAttribute("aria-pressed", on ? "true" : "false");
+      if (!calm) { t.classList.remove("pop"); void t.offsetWidth; t.classList.add("pop"); }
+    }
+    function clearTimers() { timers.forEach(clearTimeout); timers = []; }
+    tiles.forEach(function (t) {
+      t.addEventListener("click", function () { flip(t, t.getAttribute("aria-pressed") !== "true"); setCount(); });
+      t.addEventListener("pointerenter", function (e) { if (e.pointerType === "mouse" && e.buttons === 1) { flip(t, true); setCount(); } });
+      t.addEventListener("animationend", function () { t.classList.remove("pop"); });
+    });
+    document.querySelector('[data-play="all"]').addEventListener("click", function () {
+      clearTimers();
+      tiles.forEach(function (t, i) {
+        if (calm) { flip(t, true); return; }
+        timers.push(setTimeout(function () { flip(t, true); setCount(); }, i * 35));
+      });
+      setCount();
+    });
+    document.querySelector('[data-play="reset"]').addEventListener("click", function () {
+      clearTimers(); tiles.forEach(function (t) { flip(t, false); }); setCount();
+    });
+  }
 })();

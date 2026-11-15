@@ -92,3 +92,8 @@ Before and after captions: "Before" and "After" plus a short note. The Inverness
 - "Pick the wrong contractor and you can end up paying twice: once for the job, and again to fix it." is now the opening line of the problem section, and no longer repeats near the bottom.
 - Credential badges right after the hero: Licensed in Mississippi, Insured in Mississippi, FORTIFIED certified roofer. Source: Website Brief, not paperwork. See preview-gaps.md, item 5.
 - All dollar figures are off the site, including the kitchen range. "A price that keeps climbing" became "a bill that keeps climbing."
+
+## November 15
+
+- All credential badges removed, and the About line "licensed and insured" is gone. No license, insurance or FORTIFIED claims anywhere.
+- In their place, right after the hero: a retile-the-floor toy. 32 dated beige hex tiles turn into a gray and white marble mosaic when tapped. "Set them all" ripples the whole floor. Finishing shows: "Done. This floor is styled after the hex tile in our Inverness shower." with the estimate button and a link to that job. The colors are styled after the job, not copied from a photo, and the copy says "styled after" for that reason.

@@ -68,24 +68,17 @@
     "see_heading": "See the difference",
     "see_sub": "Real AKM jobs. Drag the handle on a photo to slide from before to after, or swipe for the next job.",
     "see_link": "See every job, step by step",
-    "badges_label": "Credentials",
-    "badges": [
-      {
-        "title": "Licensed",
-        "sub": "in Mississippi",
-        "icon": "shield"
-      },
-      {
-        "title": "Insured",
-        "sub": "in Mississippi",
-        "icon": "umbrella"
-      },
-      {
-        "title": "FORTIFIED",
-        "sub": "certified roofer",
-        "icon": "house"
-      }
-    ]
+    "play": {
+      "eyebrow": "Try it",
+      "heading": "Tap a tile. Watch it change.",
+      "sub": "Every AKM job goes from dated to done, one tile at a time. Retile this floor.",
+      "all": "Set them all",
+      "reset": "Start over",
+      "count": "{n} of {total} tiles set",
+      "done": "Done. This floor is styled after the hex tile in our Inverness shower.",
+      "done_link": "See that job",
+      "done_cta": "Get a free estimate"
+    }
   },
   "services": {
     "meta_title": "Bathroom and Kitchen Remodels in Mississippi | AKM",
@@ -141,7 +134,7 @@
     "stat_label": "years in the trade",
     "body": [
       "AKM Real Estate and Construction is a remodeling and building company based in Belzoni, Mississippi. We work across the Delta, the Jackson area and Oxford.",
-      "AKM is licensed and insured in Mississippi. We take on full bathroom and kitchen remodels, and we don't do handyman work or small repairs.",
+      "We take on full bathroom and kitchen remodels, and we don't do handyman work or small repairs.",
       "Partner contractors cover plumbing, electrical and concrete, so one call can cover the whole project."
     ],
     "how_heading": "How we work",

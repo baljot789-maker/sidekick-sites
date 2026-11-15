@@ -12,7 +12,7 @@ Updated 2026-11-10 from the Website Brief (2026-11-07).
 
 ## Left off the site until it arrives
 
-5. **Licence number and proof of insurance. LAUNCH BLOCKER.** The home page now shows three badges (Licensed in Mississippi, Insured in Mississippi, FORTIFIED certified roofer), added because Joe asked and because the Website Brief says so. Nothing on the site is backed by paperwork yet. Before launch: get Jay's licence number and proof of insurance, and check the FORTIFIED listing. Residential jobs over about $10,000 need a state contractor licence, which covers every kitchen. The FORTIFIED badge is a roofing credential, and roofing is off the site until there are photos, so expect people to ask.
+5. **Licence number and proof of insurance.** No credential claims are on the site anymore (Joe removed the badges on Nov 15). If Jay sends a licence number and an insurance certificate later, they can come back.
 6. **FORTIFIED certification.** The site describes the work ("FORTIFIED roofing projects completed across the Mississippi Delta"), as the brief asks. It does not call Jay a certified FORTIFIED roofer until that's confirmed.
 7. **Customer quotes.** None in writing yet. When 2 or 3 arrive (word for word, first name, town, permission), they get a homepage section, ideally the ones about honesty, pricing or saving money.
 8. **Email, hours, how Jay got started, what AKM stands for.** Left out. The About page stays short.
