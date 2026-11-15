@@ -97,3 +97,9 @@ Before and after captions: "Before" and "After" plus a short note. The Inverness
 
 - All credential badges removed, and the About line "licensed and insured" is gone. No license, insurance or FORTIFIED claims anywhere.
 - In their place, right after the hero: a retile-the-floor toy. 32 dated beige hex tiles turn into a gray and white marble mosaic when tapped. "Set them all" ripples the whole floor. Finishing shows: "Done. This floor is styled after the hex tile in our Inverness shower." with the estimate button and a link to that job. The colors are styled after the job, not copied from a photo, and the copy says "styled after" for that reason.
+
+## November 15, kitchen
+
+- The tile toy is replaced by an illustrated kitchen right after the hero. It goes from honey oak, a buzzing light, almond appliances and a checker floor to white shaker cabinets, tile, stone, stainless, a navy island and pendants. Each swap shows the problem struck through and the fix in green.
+- Headline: "You work too hard not to love your kitchen." (Joe's line, tightened.) The finish button: "Let's build your dream kitchen", which fills Kitchen remodel into the estimate form.
+- The pain and fix lines describe kitchen remodels in general, not features AKM has confirmed it always installs.

@@ -68,16 +68,59 @@
     "see_heading": "See the difference",
     "see_sub": "Real AKM jobs. Drag the handle on a photo to slide from before to after, or swipe for the next job.",
     "see_link": "See every job, step by step",
-    "play": {
-      "eyebrow": "Try it",
-      "heading": "Tap a tile. Watch it change.",
-      "sub": "Every AKM job goes from dated to done, one tile at a time. Retile this floor.",
-      "all": "Set them all",
+    "kitchen": {
+      "title": "An outdated kitchen that turns into a new one, one part at a time",
+      "heading": "You work too hard not to love your kitchen.",
+      "sub": "Tap any part of this kitchen to fix it, or watch the whole room come together.",
+      "hint": "Tap a part of the kitchen to fix it.",
+      "play": "Remodel it",
       "reset": "Start over",
-      "count": "{n} of {total} tiles set",
-      "done": "Done. This floor is styled after the hex tile in our Inverness shower.",
-      "done_link": "See that job",
-      "done_cta": "Get a free estimate"
+      "done": "That's a kitchen you'll want to come home to.",
+      "done_cta": "Let's build your dream kitchen",
+      "parts": [
+        {
+          "id": "walls",
+          "name": "Walls and backsplash",
+          "pain": "Old wallpaper and grease on the drywall.",
+          "fix": "Fresh paint and tile that wipes clean."
+        },
+        {
+          "id": "cabinets",
+          "name": "Cabinets",
+          "pain": "Doors that sag and drawers that stick.",
+          "fix": "New cabinets, hung straight and built to last."
+        },
+        {
+          "id": "counters",
+          "name": "Counters",
+          "pain": "Laminate that's cracked and peeling.",
+          "fix": "Stone counters you'll want to show off."
+        },
+        {
+          "id": "appliances",
+          "name": "Appliances",
+          "pain": "Mismatched appliances from another decade.",
+          "fix": "A matched set that fits the space."
+        },
+        {
+          "id": "floor",
+          "name": "Floor",
+          "pain": "A floor worn down to the backing.",
+          "fix": "New floors, wall to wall."
+        },
+        {
+          "id": "island",
+          "name": "Island",
+          "pain": "No room to prep or gather.",
+          "fix": "An island the whole family ends up at."
+        },
+        {
+          "id": "lighting",
+          "name": "Lighting",
+          "pain": "One buzzing light for the whole room.",
+          "fix": "Warm pendants right where you work."
+        }
+      ]
     }
   },
   "services": {

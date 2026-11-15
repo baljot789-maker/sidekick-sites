@@ -199,42 +199,66 @@
     io.observe(card);
   });
 
-  // Retile the floor. Tap a tile and it turns from dated beige into the new mosaic.
-  var floor = document.querySelector(".hex-floor");
-  if (floor) {
-    var tiles = [].slice.call(floor.querySelectorAll(".hex"));
-    var countEl = document.querySelector(".play-count");
-    var done = document.querySelector(".play-done");
-    var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    var timers = [];
-    function setCount() {
-      var n = tiles.filter(function (t) { return t.getAttribute("aria-pressed") === "true"; }).length;
-      countEl.textContent = countEl.getAttribute("data-template").replace("{n}", n).replace("{total}", tiles.length);
-      var all = n === tiles.length;
-      floor.classList.toggle("is-done", all);
-      done.hidden = !all;
+  // The kitchen that remodels itself. Tap a part, press "Remodel it", or let it play
+  // once when it scrolls into view. Each swap shows the problem and the fix.
+  var kit = document.querySelector(".kit");
+  if (kit) {
+    var chips = [].slice.call(kit.querySelectorAll(".kit-chip"));
+    var order = chips.map(function (c) { return c.getAttribute("data-part"); });
+    var cap = kit.querySelector(".kit-caption");
+    var kdone = kit.querySelector(".kit-done");
+    var svg = kit.querySelector(".kit-svg");
+    var quiet = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var queue = [], touched = false;
+    function chipFor(p) { return kit.querySelector('.kit-chip[data-part="' + p + '"]'); }
+    function isNew(p) { return chipFor(p).getAttribute("aria-pressed") === "true"; }
+    function update() {
+      var n = order.filter(isNew).length;
+      svg.style.setProperty("--grime", String(1 - n / order.length));
+      kdone.hidden = n !== order.length;
     }
-    function flip(t, on) {
-      if ((t.getAttribute("aria-pressed") === "true") === on) return;
-      t.setAttribute("aria-pressed", on ? "true" : "false");
-      if (!calm) { t.classList.remove("pop"); void t.offsetWidth; t.classList.add("pop"); }
+    function tell(p, on) {
+      var c = chipFor(p);
+      cap.innerHTML = "";
+      var a = document.createElement("span"), b = document.createElement("span");
+      a.className = "kit-pain"; b.className = "kit-fix";
+      a.textContent = c.getAttribute("data-pain"); b.textContent = c.getAttribute("data-fix");
+      if (on) { cap.appendChild(a); cap.appendChild(b); } else { a.style.textDecoration = "none"; cap.appendChild(a); }
     }
-    function clearTimers() { timers.forEach(clearTimeout); timers = []; }
-    tiles.forEach(function (t) {
-      t.addEventListener("click", function () { flip(t, t.getAttribute("aria-pressed") !== "true"); setCount(); });
-      t.addEventListener("pointerenter", function (e) { if (e.pointerType === "mouse" && e.buttons === 1) { flip(t, true); setCount(); } });
-      t.addEventListener("animationend", function () { t.classList.remove("pop"); });
+    function set(p, on) {
+      kit.querySelectorAll('.part[data-part="' + p + '"]').forEach(function (g) { g.classList.toggle("is-new", on); });
+      chipFor(p).setAttribute("aria-pressed", on ? "true" : "false");
+      if (p === "cabinets") svg.classList.toggle("cab-new", on);
+      tell(p, on); update();
+    }
+    function stopQueue() { queue.forEach(clearTimeout); queue = []; }
+    function playAll() {
+      stopQueue();
+      var left = order.filter(function (p) { return !isNew(p); });
+      left.forEach(function (p, i) { queue.push(setTimeout(function () { set(p, true); }, quiet ? 0 : i * 650)); });
+    }
+    chips.forEach(function (c) {
+      c.addEventListener("click", function () { touched = true; stopQueue(); var p = c.getAttribute("data-part"); set(p, !isNew(p)); });
     });
-    document.querySelector('[data-play="all"]').addEventListener("click", function () {
-      clearTimers();
-      tiles.forEach(function (t, i) {
-        if (calm) { flip(t, true); return; }
-        timers.push(setTimeout(function () { flip(t, true); setCount(); }, i * 35));
-      });
-      setCount();
+    kit.querySelectorAll(".part").forEach(function (g) {
+      g.addEventListener("click", function () { touched = true; stopQueue(); var p = g.getAttribute("data-part"); set(p, !isNew(p)); });
     });
-    document.querySelector('[data-play="reset"]').addEventListener("click", function () {
-      clearTimers(); tiles.forEach(function (t) { flip(t, false); }); setCount();
+    kit.querySelector('[data-kit="play"]').addEventListener("click", function () { touched = true; playAll(); });
+    kit.querySelector('[data-kit="reset"]').addEventListener("click", function () {
+      touched = true; stopQueue(); order.forEach(function (p) { set(p, false); });
+      cap.innerHTML = '<span class="kit-hint"></span>'; cap.firstChild.textContent = "Tap a part of the kitchen to fix it.";
     });
+    var go = kit.querySelector("[data-project]");
+    if (go) go.addEventListener("click", function () {
+      var sel = document.getElementById("q-project");
+      if (sel) sel.value = go.getAttribute("data-project");
+    });
+    update();
+    if (!quiet && "IntersectionObserver" in window) {
+      var seen = new IntersectionObserver(function (en) {
+        if (en[0].isIntersecting) { seen.disconnect(); setTimeout(function () { if (!touched) playAll(); }, 700); }
+      }, { threshold: 0.55 });
+      seen.observe(svg);
+    }
   }
 })();
