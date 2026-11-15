@@ -8,7 +8,7 @@
     "short_name": "AKM",
     "owner_name": "Jay Singh",
     "phone": null,
-    "phone_note": "Leave blank until the new AKM customer number is set up (Joe). Per the partnership agreement, that number goes on the site and cards. Set it once, in site.js (PHONE).",
+    "phone_note": "Decision (Joe, 2026-11-15): Gursavick's current cell becomes the AKM business line. He gets a new personal number, and the old one moves to the AI phone service. Per the partnership agreement, it goes on the site and cards. Set it once, in site.js (PHONE). Waiting on Joe for the number.",
     "texts_ok": true,
     "email": null,
     "address": null,
