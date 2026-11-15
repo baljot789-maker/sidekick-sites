@@ -52,10 +52,11 @@
   </div>
 </section>
 
-<section class="kit on-paper-2" aria-labelledby="kit-h">
-  <div class="wrap kit-grid">
-    <div class="kit-stage">
-      <div class="kit-frame"><svg class="kit-svg" viewBox="0 0 640 480" role="img" aria-labelledby="kit-t"><title id="kit-t">An outdated kitchen that turns into a new one, one part at a time</title><defs>
+<section class="kit on-paper-2" aria-labelledby="kit-h" data-order="walls,cabinets,counters,appliances,floor,island,lighting">
+  <div class="kit-pin">
+    <div class="wrap kit-grid">
+      <div class="kit-stage">
+        <div class="kit-frame"><svg class="kit-svg" viewBox="0 0 640 480" role="img" aria-labelledby="kit-t"><title id="kit-t">An outdated kitchen that turns into a new one, one part at a time</title><defs>
   <pattern id="kWall" width="24" height="24" patternUnits="userSpaceOnUse"><rect width="24" height="24" fill="#e7d6a2"/><rect width="7" height="24" fill="#dcc58b"/><circle cx="15.5" cy="7" r="2.3" fill="#c98f6b"/><circle cx="15.5" cy="18" r="1.5" fill="#9fae7a"/></pattern>
   <pattern id="kSub" width="30" height="12" patternUnits="userSpaceOnUse"><rect width="30" height="12" fill="#eceae4"/><path d="M0 .5H30M0 6.5H30M.5 0V6M15.5 6V12" stroke="#d3cec5"/></pattern>
   <pattern id="kCheck" width="44" height="44" patternUnits="userSpaceOnUse"><rect width="44" height="44" fill="#d6c59c"/><rect width="22" height="22" fill="#bba678"/><rect x="22" y="22" width="22" height="22" fill="#bba678"/></pattern>
@@ -137,30 +138,15 @@
     <path d="M226 322 Q228 298 250 298 Q272 298 274 322 Z" fill="#b08a44"/><path d="M366 322 Q368 298 390 298 Q412 298 414 322 Z" fill="#b08a44"/>
     <ellipse cx="250" cy="323" rx="17" ry="4" fill="#ffefc2"/><ellipse cx="390" cy="323" rx="17" ry="4" fill="#ffefc2"/></g>
 </g><rect class="grime" width="640" height="480" fill="#4a3a1e" pointer-events="none"/></svg></div>
-      <p class="kit-caption" aria-live="polite"><span class="kit-hint">Tap a part of the kitchen to fix it.</span></p>
-    </div>
-    <div class="kit-copy">
-      <h2 id="kit-h">You work too hard not to love your kitchen.</h2>
-      <p>Tap any part of this kitchen to fix it, or watch the whole room come together.</p>
-      <div class="btn-row">
-        <button class="btn btn-green" type="button" data-kit="play">Remodel it</button>
-        <button class="btn btn-line kit-reset" type="button" data-kit="reset">Start over</button>
+        <div class="kit-progress" aria-hidden="true"><span></span></div>
       </div>
-      <ul class="kit-chips" aria-label="Parts of the kitchen">
-        <li><button class="kit-chip" type="button" aria-pressed="false" data-part="walls" data-pain="Old wallpaper and grease on the drywall." data-fix="Fresh paint and tile that wipes clean.">Walls and backsplash</button></li>
-        <li><button class="kit-chip" type="button" aria-pressed="false" data-part="cabinets" data-pain="Doors that sag and drawers that stick." data-fix="New cabinets, hung straight and built to last.">Cabinets</button></li>
-        <li><button class="kit-chip" type="button" aria-pressed="false" data-part="counters" data-pain="Laminate that&#x27;s cracked and peeling." data-fix="Stone counters you&#x27;ll want to show off.">Counters</button></li>
-        <li><button class="kit-chip" type="button" aria-pressed="false" data-part="appliances" data-pain="Mismatched appliances from another decade." data-fix="A matched set that fits the space.">Appliances</button></li>
-        <li><button class="kit-chip" type="button" aria-pressed="false" data-part="floor" data-pain="A floor worn down to the backing." data-fix="New floors, wall to wall.">Floor</button></li>
-        <li><button class="kit-chip" type="button" aria-pressed="false" data-part="island" data-pain="No room to prep or gather." data-fix="An island the whole family ends up at.">Island</button></li>
-        <li><button class="kit-chip" type="button" aria-pressed="false" data-part="lighting" data-pain="One buzzing light for the whole room." data-fix="Warm pendants right where you work.">Lighting</button></li>
-      </ul>
-      <div class="kit-done" hidden>
-        <p>That&#x27;s a kitchen you&#x27;ll want to come home to.</p>
+      <div class="kit-copy">
+        <h2 id="kit-h">You work too hard not to love your kitchen.</h2>
         <a class="btn btn-brass" href="#quote" data-project="Kitchen remodel">Let&#x27;s build your dream kitchen</a>
       </div>
     </div>
   </div>
+  <div class="kit-runway" aria-hidden="true"></div>
 </section>
 
 <section class="section on-paper see" id="see-the-difference">

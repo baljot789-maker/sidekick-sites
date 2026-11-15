@@ -103,3 +103,9 @@ Before and after captions: "Before" and "After" plus a short note. The Inverness
 - The tile toy is replaced by an illustrated kitchen right after the hero. It goes from honey oak, a buzzing light, almond appliances and a checker floor to white shaker cabinets, tile, stone, stainless, a navy island and pendants. Each swap shows the problem struck through and the fix in green.
 - Headline: "You work too hard not to love your kitchen." (Joe's line, tightened.) The finish button: "Let's build your dream kitchen", which fills Kitchen remodel into the estimate form.
 - The pain and fix lines describe kitchen remodels in general, not features AKM has confirmed it always installs.
+
+## November 15, kitchen, second pass
+
+- Mobile first: the kitchen now remodels as you scroll. It pins in the middle of the screen, swaps one part at a time, and reverses on the way back up. A thin brass bar under it fills as it goes.
+- No descriptors: the part labels, the problem and fix captions, and the extra sentence are gone. The pain and fix lines stay in copy.json, unused, in case they come back.
+- The section is just the drawing, the headline, and "Let's build your dream kitchen" right under it.

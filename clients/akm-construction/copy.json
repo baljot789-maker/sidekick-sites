@@ -71,12 +71,6 @@
     "kitchen": {
       "title": "An outdated kitchen that turns into a new one, one part at a time",
       "heading": "You work too hard not to love your kitchen.",
-      "sub": "Tap any part of this kitchen to fix it, or watch the whole room come together.",
-      "hint": "Tap a part of the kitchen to fix it.",
-      "play": "Remodel it",
-      "reset": "Start over",
-      "done": "That's a kitchen you'll want to come home to.",
-      "done_cta": "Let's build your dream kitchen",
       "parts": [
         {
           "id": "walls",
@@ -120,6 +114,16 @@
           "pain": "One buzzing light for the whole room.",
           "fix": "Warm pendants right where you work."
         }
+      ],
+      "cta": "Let's build your dream kitchen",
+      "order": [
+        "walls",
+        "cabinets",
+        "counters",
+        "appliances",
+        "floor",
+        "island",
+        "lighting"
       ]
     }
   },
